@@ -1,0 +1,54 @@
+Benzo Rom
+===========
+
+Some info might be outdated, but you can get the gist if it is.
+
+Getting Started
+---------------
+
+To get started with Benzo, you'll need to get
+familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
+
+To initialize your local repository use a command like this:
+
+    repo init -u git://github.com/BenzoRom/manifest.git -b eightone
+
+Then to sync up:
+
+    repo sync -f -j8
+
+
+Instructions for building with Arch Linux -!!THIS MIGHT BE OUTDATED!!-
+=========================================
+
+Install the needed packages
+---------------------------
+yaourt -S bc git gnupg flex bison gperf sdl wxgtk squashfs-tools curl ncurses zlib schedtool perl-switch zip unzip lib32-zlib lib32-ncurses lib32-readline gcc-libs-multilib gcc-multilib lib32-gcc-libs lib32-readline libtinfo optipng pngcrush pngquant 
+
+Setup repo and other stuff
+--------------------------
+mkdir ~/bin && curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/repo &&chmod a+x ~/bin/repo
+
+nano ~/.bashrc
+
+export PATH=~/bin:$PATH
+
+source ~/.bashrc
+
+To set up adb
+-------------
+yaourt -S android-tools android-udev
+
+Then run: gpasswd -a yourusername adbusers
+
+
+To build using Oracle Java
+--------------------------
+yaourt -S jdk
+
+Then run "archlinux-java status" to see which versions you have installed.
+
+Then run "sudo archlinux-java set java-8-jdk" to set java 8 as default
+
+Verify in a new terminal if it’s set correctly: “which java“, “which javac“, “java -version“, “javac -version“
+
