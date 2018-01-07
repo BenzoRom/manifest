@@ -85,7 +85,7 @@
   <!-- Prebuilts -->
   <project path="prebuilts/build-tools" name="prebuilts_build-tools" remote="benzo" />
   <project path="prebuilts/clang/host/linux-x86" name="prebuilts_clang_host_linux-x86" remote="bb" revision="eightone" />
-  <project path="prebuilts/clang/host/linux-x86/6.0" name="dragontc-6.0" remote="bb" revision="dragontc" />
+  <project path="prebuilts/clang/host/linux-x86/7.0" name="dragontc-7.0" remote="bb" revision="dragontc" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-8.0" name="aarch64-8.0" remote="bb" revision="linaro" />
 
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
