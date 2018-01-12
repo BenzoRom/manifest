@@ -74,7 +74,7 @@
 
   <!-- Vendors -->
   <project path="vendor/benzo" name="vendor_benzo" remote="benzo" />
-  <project path="vendor/google_devices/marlin" name="vendor_google_devices_marlin" remote="benzo" />
+  <project path="vendor/google_devices" name="vendor_google_devices" remote="benzo" />
   <project path="vendor/googleapps" name="vendor_googleapps" remote="bb" revision="eightone" />
 
   <!-- Device & Kernel -->
