@@ -36,6 +36,7 @@
   <project path="frameworks/av" name="frameworks_av" remote="benzo" />
   <project path="frameworks/base" name="frameworks_base" remote="benzo" />
   <project path="frameworks/compile/libbcc" name="frameworks_compile_libbcc" remote="benzo" />
+  <project path="frameworks/native" name="frameworks_native" remote="benzo" />
   <project path="frameworks/rs" name="frameworks_rs" remote="benzo" />
   <project path="frameworks/support" name="frameworks_support" remote="benzo" />
   <project path="hardware/interfaces" name="hardware_interfaces" remote="benzo" />
@@ -43,10 +44,7 @@
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="benzo" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="benzo" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="benzo" />
-  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="benzo" />
   <project path="packages/apps/BenzoSettings" name="packages_apps_BenzoSettings" remote="benzo" />
-  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="benzo" />
-  <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="benzo" />
   <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" remote="benzo" />
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="benzo" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="benzo" />
@@ -57,6 +55,7 @@
   <project path="system/sepolicy" name="system_sepolicy" remote="benzo" />
 
   <!-- Externals -->
+  <project path="external/boringssl" name="external_boringssl" remote="benzo" />
   <project path="external/freetype" name="external_freetype" remote="benzo" />
   <project path="external/jemalloc" name="external_jemalloc" remote="benzo" />
   <project path="external/libavc" name="external_libavc" remote="benzo" />
@@ -121,7 +120,6 @@
   <project path="external/bart" name="platform/external/bart" groups="pdk" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" />
   <project path="external/blktrace" name="platform/external/blktrace" groups="pdk" />
-  <project path="external/boringssl" name="platform/external/boringssl" groups="pdk" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" groups="pdk" />
   <project path="external/brotli" name="platform/external/brotli" groups="pdk" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
@@ -369,7 +367,6 @@
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" groups="pdk-fs" />
   <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs,pdk-fs" />
