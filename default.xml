@@ -40,11 +40,13 @@
   <project path="frameworks/rs" name="frameworks_rs" remote="benzo" />
   <project path="frameworks/support" name="frameworks_support" remote="benzo" />
   <project path="hardware/interfaces" name="hardware_interfaces" remote="benzo" />
+  <project path="hardware/qcom/display" name="hardware_qcom_display" remote="benzo" />
   <project path="libcore" name="libcore" remote="benzo" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="benzo" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="benzo" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="benzo" />
   <project path="packages/apps/BenzoSettings" name="packages_apps_BenzoSettings" remote="benzo" />
+  <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" remote="benzo" />
   <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" remote="benzo" />
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="benzo" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="benzo" />
@@ -53,6 +55,7 @@
   <project path="system/core" name="system_core" remote="benzo" />
   <project path="system/extras" name="system_extras" remote="benzo" />
   <project path="system/sepolicy" name="system_sepolicy" remote="benzo" />
+  <project path="system/vold" name="system_vold" remote="benzo" />
 
   <!-- Externals -->
   <project path="external/boringssl" name="external_boringssl" remote="benzo" />
@@ -65,6 +68,7 @@
   <project path="external/libopus" name="external_libopus" remote="benzo" />
   <project path="external/libpng" name="external_libpng" remote="benzo" />
   <project path="external/libxml2" name="external_libxml2" remote="benzo" />
+  <project path="external/proguard" name="external_proguard" remote="benzo" />
   <project path="external/skia" name="external_skia" remote="benzo" />
   <project path="external/speex" name="external_speex" remote="benzo" />
   <project path="external/sqlite" name="external_sqlite" remote="benzo" />
@@ -296,7 +300,6 @@
   <project path="external/piex" name="platform/external/piex" groups="pdk" />
   <project path="external/ply" name="platform/external/ply" groups="pdk" />
   <project path="external/ppp" name="platform/external/ppp" groups="pdk" />
-  <project path="external/proguard" name="platform/external/proguard" groups="pdk" />
   <project path="external/protobuf" name="platform/external/protobuf" groups="pdk" />
   <project path="external/python/cpython2" name="platform/external/python/cpython2" groups="pdk" />
   <project path="external/python/cpython3" name="platform/external/python/cpython3" groups="pdk" />
@@ -416,7 +419,6 @@
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom,pdk" />
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom_camera" />
   <project path="hardware/qcom/data/ipacfg-mgr" name="platform/hardware/qcom/data/ipacfg-mgr" groups="qcom,pdk" />
-  <project path="hardware/qcom/display" name="platform/hardware/qcom/display" groups="pdk,qcom,qcom_display" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom,qcom_gps,pdk" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom,qcom_keymaster,pdk" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" groups="qcom,pdk" />
@@ -438,7 +440,6 @@
   <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/DocumentsUI" name="platform/packages/apps/DocumentsUI" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/EmergencyInfo" name="platform/packages/apps/EmergencyInfo" groups="pdk-fs" />
   <project path="packages/apps/ExactCalculator" name="platform/packages/apps/ExactCalculator" groups="pdk-fs" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" groups="pdk-fs" />
@@ -504,7 +505,6 @@
   <project path="prebuilts/devtools" name="platform/prebuilts/devtools" groups="pdk-fs" clone-depth="1" />
   <project path="prebuilts/deqp" name="platform/prebuilts/deqp" groups="pdk-fs" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,linux,arm" clone-depth="1" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" groups="pdk,linux,arm" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" groups="pdk,linux" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" groups="pdk,linux" clone-depth="1" />
@@ -548,7 +548,6 @@
   <project path="system/tools/hidl" name="platform/system/tools/hidl" groups="pdk" />
   <project path="system/tpm" name="platform/system/tpm" />
   <project path="system/update_engine" name="platform/system/update_engine" groups="pdk" />
-  <project path="system/vold" name="platform/system/vold" groups="pdk" />
   <project path="test/framework" name="platform/test/framework" groups="vts,pdk-fs" />
   <project path="test/vts" name="platform/test/vts" groups="vts,pdk-fs" />
   <project path="test/vts-testcase/fuzz" name="platform/test/vts-testcase/fuzz" groups="vts,pdk-fs" />
