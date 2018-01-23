@@ -18,22 +18,12 @@ Then to sync up:
     repo sync -f -j8
 
 
-Instructions for building with Arch Linux -!!THIS MIGHT BE OUTDATED!!-
+Instructions for building with Arch Linux
 =========================================
 
 Install the needed packages
 ---------------------------
-yaourt -S bc git gnupg flex bison gperf sdl wxgtk squashfs-tools curl ncurses zlib schedtool perl-switch zip unzip lib32-zlib lib32-ncurses lib32-readline gcc-libs-multilib gcc-multilib lib32-gcc-libs lib32-readline libtinfo optipng pngcrush pngquant 
-
-Setup repo and other stuff
---------------------------
-mkdir ~/bin && curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/repo &&chmod a+x ~/bin/repo
-
-nano ~/.bashrc
-
-export PATH=~/bin:$PATH
-
-source ~/.bashrc
+yaourt -S gcc-multilib repo git gnupg flex bison gperf sdl wxgtk squashfs-tools curl ncurses zlib schedtool perl-switch zip unzip libxslt python2-virtualenv bc rsync ccache java-environment ncurses5-compat-libs lib32-zlib lib32-ncurses lib32-readline lib32-ncurses5-compat-libs ffmpeg ninja lzop pngcrush imagemagick
 
 To set up adb
 -------------
