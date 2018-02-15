@@ -62,6 +62,8 @@
 
   <!-- Externals -->
   <project path="external/boringssl" name="external_boringssl" remote="benzo" />
+  <project path="external/chromium-webview" name="external_chromium-webview" remote="bb" revision="eightone" />
+  <project path="external/expat" name="external_expat" remote="benzo" />
   <project path="external/freetype" name="external_freetype" remote="benzo" />
   <project path="external/jemalloc" name="external_jemalloc" remote="benzo" />
   <project path="external/libavc" name="external_libavc" remote="benzo" />
@@ -136,7 +138,6 @@
   <project path="external/cblas" name="platform/external/cblas" groups="pdk" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" groups="pdk" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
-  <project path="external/chromium-webview" name="platform/external/chromium-webview" groups="pdk" clone-depth="1" />
   <project path="external/clang" name="platform/external/clang" groups="pdk" />
   <project path="external/cmockery" name="platform/external/cmockery" groups="pdk" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
@@ -165,7 +166,6 @@
   <project path="external/elfutils" name="platform/external/elfutils" groups="pdk" />
   <project path="external/emma" name="platform/external/emma" groups="pdk" />
   <project path="external/esd" name="platform/external/esd" groups="pdk" />
-  <project path="external/expat" name="platform/external/expat" groups="pdk" />
   <project path="external/eyes-free" name="platform/external/eyes-free" groups="pdk" />
   <project path="external/f2fs-tools" name="platform/external/f2fs-tools" groups="pdk" />
   <project path="external/fdlibm" name="platform/external/fdlibm" groups="pdk" />
