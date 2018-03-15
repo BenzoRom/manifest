@@ -76,7 +76,6 @@
   <project path="external/libpng" name="external_libpng" remote="benzo" />
   <project path="external/libxml2" name="external_libxml2" remote="benzo" />
   <project path="external/proguard" name="external_proguard" remote="benzo" />
-  <project path="external/sfntly" name="external_sfntly" remote="benzo" />
   <project path="external/skia" name="external_skia" remote="benzo" />
   <project path="external/speex" name="external_speex" remote="benzo" />
   <project path="external/sqlite" name="external_sqlite" remote="benzo" />
@@ -320,6 +319,7 @@
   <project path="external/seccomp-tests" name="platform/external/seccomp-tests" groups="pdk" />
   <project path="external/selinux" name="platform/external/selinux" groups="pdk" />
   <project path="external/shflags" name="platform/external/shflags" groups="pdk" />
+  <project path="external/sfntly" name="platform/external/sfntly" groups="pdk,qcom_msm8x26" />
   <project path="external/sl4a" name="platform/external/sl4a" groups="pdk" />
   <project path="external/slf4j" name="platform/external/slf4j" groups="pdk" />
   <project path="external/smali" name="platform/external/smali" groups="pdk" />
