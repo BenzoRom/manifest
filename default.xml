@@ -59,7 +59,9 @@
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="benzo" />
   <project path="system/core" name="system_core" remote="benzo" />
   <project path="system/extras" name="system_extras" remote="benzo" />
+  <project path="system/netd" name="system_netd" remote="benzo" />
   <project path="system/sepolicy" name="system_sepolicy" remote="benzo" />
+  <project path="system/update_engine" name="system_update_engine" remote="benzo" />
   <project path="system/vold" name="system_vold" remote="benzo" />
 
   <!-- Externals -->
@@ -85,6 +87,7 @@
 
   <!-- Vendors -->
   <project path="vendor/benzo" name="vendor_benzo" remote="benzo" />
+  <project path="vendor/dexoptProfiles" name="vendor_dexoptProfiles" remote="benzo" />
   <project path="vendor/google_devices" name="vendor_google_devices" remote="benzo" />
   <project path="vendor/googleapps" name="vendor_googleapps" remote="bb" revision="eightone" />
 
@@ -538,7 +541,6 @@
   <project path="system/libufdt" name="platform/system/libufdt" groups="pdk" />
   <project path="system/libvintf" name="platform/system/libvintf" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
-  <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/nfc" name="platform/system/nfc" groups="pdk" />
   <project path="system/nvram" name="platform/system/nvram" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
@@ -546,7 +548,6 @@
   <project path="system/timezone" name="platform/system/timezone" groups="pdk" />
   <project path="system/tools/hidl" name="platform/system/tools/hidl" groups="pdk" />
   <project path="system/tpm" name="platform/system/tpm" />
-  <project path="system/update_engine" name="platform/system/update_engine" groups="pdk" />
   <project path="test/framework" name="platform/test/framework" groups="vts,pdk-fs" />
   <project path="test/vts" name="platform/test/vts" groups="vts,pdk-fs" />
   <project path="test/vts-testcase/fuzz" name="platform/test/vts-testcase/fuzz" groups="vts,pdk-fs" />
