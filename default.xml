@@ -69,6 +69,7 @@
   <project path="external/chromium-webview" name="external_chromium-webview" remote="bb" revision="eightone" />
   <project path="external/expat" name="external_expat" remote="benzo" />
   <project path="external/freetype" name="external_freetype" remote="benzo" />
+  <project path="external/google-fonts/googlesans" name="external_google-fonts_googlesans" remote="benzo" />
   <project path="external/jemalloc" name="external_jemalloc" remote="benzo" />
   <project path="external/libavc" name="external_libavc" remote="benzo" />
   <project path="external/libhevc" name="external_libhevc" remote="benzo" />
