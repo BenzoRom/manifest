@@ -9,7 +9,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
-  <default revision="refs/tags/android-8.1.0_r20"
+  <default revision="refs/tags/android-8.1.0_r28"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
@@ -103,6 +103,7 @@
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="aarch64-linux-android-4.9" remote="bb" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="arm-linux-androideabi-4.9" remote="bb" revision="master" />
   <project path="prebuilts/jdk/jdk9" name="platform/prebuilts/jdk/jdk9" remote="aosp" revision="master" clone-depth="1" />
+  <project path="prebuilts/r8" name="prebuilts/_r8" remote="benzo" />
 
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
