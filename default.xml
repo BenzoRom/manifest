@@ -90,7 +90,7 @@
 
   <!-- Vendors -->
   <project path="vendor/benzo" name="vendor_benzo" remote="benzo" />
-  <project path="vendor/dexoptProfiles" name="vendor_dexoptProfiles" remote="benzo" />
+  <project path="vendor/dexopt-profiles" name="vendor_dexopt-profiles" remote="benzo" />
   <project path="vendor/google_devices" name="vendor_google_devices" remote="benzo" />
   <project path="vendor/googleapps" name="vendor_googleapps" remote="bb" revision="eightone" />
 
