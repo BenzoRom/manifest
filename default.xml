@@ -37,6 +37,7 @@
   <project path="frameworks/av" name="frameworks_av" remote="benzo" />
   <project path="frameworks/base" name="frameworks_base" remote="benzo" />
   <project path="frameworks/compile/libbcc" name="frameworks_compile_libbcc" remote="benzo" />
+  <project path="frameworks/compile/mclinker" name="frameworks_compile_mclinker" remote="benzo" />
   <project path="frameworks/native" name="frameworks_native" remote="benzo" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="benzo" />
   <project path="frameworks/rs" name="frameworks_rs" remote="benzo" />
@@ -373,7 +374,6 @@
   <project path="external/xz-embedded" name="platform/external/xz-embedded" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk" />
-  <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
   <project path="frameworks/ex" name="platform/frameworks/ex" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/hardware/interfaces" name="platform/frameworks/hardware/interfaces" groups="pdk" />
