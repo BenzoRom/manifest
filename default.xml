@@ -69,6 +69,7 @@
   <!-- Externals -->
   <project path="external/boringssl" name="external_boringssl" remote="benzo" />
   <project path="external/chromium-webview" name="external_chromium-webview" remote="bb" revision="eightone" />
+  <project path="external/curl" name="external_curl" remote="benzo" />
   <project path="external/expat" name="external_expat" remote="benzo" />
   <project path="external/freetype" name="external_freetype" remote="benzo" />
   <project path="external/jemalloc" name="external_jemalloc" remote="benzo" />
@@ -155,7 +156,6 @@
   <project path="external/conscrypt" name="platform/external/conscrypt" groups="pdk" />
   <project path="external/crcalc" name="platform/external/crcalc" groups="pdk" />
   <project path="external/cros/system_api" name="platform/external/cros/system_api" groups="pdk" />
-  <project path="external/curl" name="platform/external/curl" groups="pdk" />
   <project path="external/dagger2" name="platform/external/dagger2" groups="pdk" />
   <project path="external/devlib" name="platform/external/devlib" groups="pdk" />
   <project path="external/deqp" name="platform/external/deqp" groups="pdk-fs" />
@@ -264,7 +264,6 @@
   <project path="external/libusb" name="platform/external/libusb" groups="pdk" />
   <project path="external/libusb-compat" name="platform/external/libusb-compat" groups="pdk" />
   <project path="external/libvncserver" name="platform/external/libvncserver" groups="pdk" />
-  <project path="external/libvorbis" name="platform/external/libvorbis" groups="pdk" />
   <project path="external/libvpx" name="platform/external/libvpx" groups="pdk" />
   <project path="external/libvterm" name="platform/external/libvterm" groups="pdk" />
   <project path="external/libtextclassifier" name="platform/external/libtextclassifier" groups="pdk" />
