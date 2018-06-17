@@ -39,6 +39,7 @@
   <project path="frameworks/base" name="frameworks_base" remote="benzo" />
   <project path="frameworks/compile/libbcc" name="frameworks_compile_libbcc" remote="benzo" />
   <project path="frameworks/compile/mclinker" name="frameworks_compile_mclinker" remote="benzo" />
+  <project path="frameworks/ml" name="frameworks_ml" remote="benzo" />
   <project path="frameworks/native" name="frameworks_native" remote="benzo" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="benzo" />
   <project path="frameworks/rs" name="frameworks_rs" remote="benzo" />
@@ -90,6 +91,16 @@
   <project path="external/vixl" name="external_vixl" remote="benzo" />
   <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="benzo" />
   <project path="external/zlib" name="external_zlib" remote="benzo" />
+  <!-- Externals/Added for polly -->
+  <project path="external/aac" name="external_aac" remote="benzo" />
+  <project path="external/dng_sdk" name="external_dng_sdk" remote="benzo" />
+  <project path="external/eigen" name="external_eigen" remote="benzo" />
+  <project path="external/gemmlowp" name="external_gemmlowp" remote="benzo" />
+  <project path="external/libvpx" name="external_libvpx" remote="benzo" />
+  <project path="external/libyuv" name="external_libyuv" remote="benzo" />
+  <project path="external/pdfium" name="external_pdfium" remote="benzo" />
+  <project path="external/sonic" name="external_sonic" remote="benzo" />
+  <project path="external/webp" name="external_webp" remote="benzo" />
 
   <!-- Vendors -->
   <project path="vendor/benzo" name="vendor_benzo" remote="benzo" />
@@ -125,7 +136,6 @@
   <project path="device/google/vrservices" name="device/google/vrservices" groups="pdk" clone-depth="1" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/abi-compliance-checker" name="platform/external/abi-compliance-checker" groups="pdk" />
   <project path="external/abi-dumper" name="platform/external/abi-dumper" groups="pdk" />
   <project path="external/adt-infra" name="platform/external/adt-infra" groups="adt-infra,notdefault,pdk-fs" />
@@ -165,7 +175,6 @@
   <project path="external/dexmaker" name="platform/external/dexmaker" groups="pdk" />
   <project path="external/desugar" name="platform/external/desugar" groups="pdk" />
   <project path="external/dhcpcd-6.8.2" name="platform/external/dhcpcd-6.8.2" groups="pdk" />
-  <project path="external/dng_sdk" name="platform/external/dng_sdk" groups="pdk" />
   <project path="external/dlmalloc" name="platform/external/dlmalloc" groups="pdk" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" groups="pdk" />
   <project path="external/doclava" name="platform/external/doclava" groups="pdk" />
@@ -176,7 +185,6 @@
   <project path="external/dtc" name="platform/external/dtc" groups="pdk"/>
   <project path="external/e2fsprogs" name="platform/external/e2fsprogs" groups="pdk" />
   <project path="external/easymock" name="platform/external/easymock" groups="pdk" />
-  <project path="external/eigen" name="platform/external/eigen" groups="pdk" />
   <project path="external/elfutils" name="platform/external/elfutils" groups="pdk" />
   <project path="external/emma" name="platform/external/emma" groups="pdk" />
   <project path="external/esd" name="platform/external/esd" groups="pdk" />
@@ -190,7 +198,6 @@
   <project path="external/fonttools" name="platform/external/fonttools" groups="pdk" />
   <project path="external/fmtlib" name="platform/external/fmtlib" groups="pdk" />
   <project path="external/fsck_msdos" name="platform/external/fsck_msdos" groups="pdk" />
-  <project path="external/gemmlowp" name="platform/external/gemmlowp" groups="pdk" />
   <project path="external/giflib" name="platform/external/giflib" groups="pdk,qcom_msm8x26" />
   <project path="external/glide" name="platform/external/glide" groups="pdk" />
   <project path="external/google-api-services-storage" name="platform/external/google-api-services-storage" groups="pdk" />
@@ -267,10 +274,8 @@
   <project path="external/libusb" name="platform/external/libusb" groups="pdk" />
   <project path="external/libusb-compat" name="platform/external/libusb-compat" groups="pdk" />
   <project path="external/libvncserver" name="platform/external/libvncserver" groups="pdk" />
-  <project path="external/libvpx" name="platform/external/libvpx" groups="pdk" />
   <project path="external/libvterm" name="platform/external/libvterm" groups="pdk" />
   <project path="external/libtextclassifier" name="platform/external/libtextclassifier" groups="pdk" />
-  <project path="external/libyuv" name="platform/external/libyuv" groups="pdk,libyuv" />
   <project path="external/linux-kselftest" name="platform/external/linux-kselftest" groups="vts,pdk" />
   <project path="external/lisa" name="platform/external/lisa" groups="pdk" />
   <project path="external/littlemock" name="platform/external/littlemock" groups="pdk" />
@@ -312,7 +317,6 @@
   <project path="external/owasp/sanitizer" name="platform/external/owasp/sanitizer" groups="pdk" />
   <project path="external/parameter-framework" name="platform/external/parameter-framework" groups="pdk" />
   <project path="external/pcre" name="platform/external/pcre" groups="pdk" />
-  <project path="external/pdfium" name="platform/external/pdfium" groups="pdk" />
   <project path="external/piex" name="platform/external/piex" groups="pdk" />
   <project path="external/ply" name="platform/external/ply" groups="pdk" />
   <project path="external/ppp" name="platform/external/ppp" groups="pdk" />
@@ -335,7 +339,6 @@
   <project path="external/slf4j" name="platform/external/slf4j" groups="pdk" />
   <project path="external/smali" name="platform/external/smali" groups="pdk" />
   <project path="external/snakeyaml" name="platform/external/snakeyaml" groups="pdk" />
-  <project path="external/sonic" name="platform/external/sonic" groups="pdk" />
   <project path="external/spirv-llvm" name="platform/external/spirv-llvm" groups="pdk" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
   <project path="external/squashfs-tools" name="platform/external/squashfs-tools" groups="pdk" />
@@ -366,7 +369,6 @@
   <project path="external/volley" name="platform/external/volley" groups="pdk" />
   <project path="external/vulkan-validation-layers" name="platform/external/vulkan-validation-layers" groups="pdk" />
   <project path="external/walt" name="platform/external/walt" groups="pdk" />
-  <project path="external/webp" name="platform/external/webp" groups="pdk,qcom_msm8x26" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
   <project path="external/wycheproof" name="platform/external/wycheproof" groups="pdk" />
   <project path="external/x264" name="platform/external/x264" groups="pdk" />
@@ -381,7 +383,6 @@
   <project path="frameworks/hardware/interfaces" name="platform/frameworks/hardware/interfaces" groups="pdk" />
   <project path="frameworks/layoutlib" name="platform/frameworks/layoutlib" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" groups="pdk-fs" />
   <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs,pdk-fs" />
