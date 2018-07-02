@@ -63,6 +63,7 @@
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="benzo" />
   <project path="system/core" name="system_core" remote="benzo" />
   <project path="system/extras" name="system_extras" remote="benzo" />
+  <project path="system/libhwbinder" name="system_libhwbinder" remote="benzo" />
   <project path="system/netd" name="system_netd" remote="benzo" />
   <project path="system/sepolicy" name="system_sepolicy" remote="benzo" />
   <project path="system/update_engine" name="system_update_engine" remote="benzo" />
@@ -541,7 +542,6 @@
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
   <project path="system/libfmq" name="platform/system/libfmq" groups="pdk" />
   <project path="system/libhidl" name="platform/system/libhidl" groups="pdk" />
-  <project path="system/libhwbinder" name="platform/system/libhwbinder" groups="pdk" />
   <project path="system/libufdt" name="platform/system/libufdt" groups="pdk" />
   <project path="system/libvintf" name="platform/system/libvintf" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
