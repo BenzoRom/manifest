@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="benzo"
-           fetch="git://github.com/BenzoRom/"
+           fetch="https://github.com/BenzoRom/"
            revision="eightone"/>
   <remote  name="bb"
            fetch="https://bitbucket.org/xanaxdroid/" />
