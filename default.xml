@@ -71,7 +71,7 @@
 
   <!-- Externals -->
   <project path="external/boringssl" name="external_boringssl" remote="benzo" />
-  <project path="external/chromium-webview" name="external_chromium-webview" remote="bb" revision="eightone" />
+  <project path="external/chromium-webview" name="external_chromium-webview" remote="benzo" />
   <project path="external/curl" name="external_curl" remote="benzo" />
   <project path="external/expat" name="external_expat" remote="benzo" />
   <project path="external/freetype" name="external_freetype" remote="benzo" />
@@ -116,8 +116,8 @@
   <!-- Prebuilts -->
   <project path="prebuilts/build-tools" name="prebuilts_build-tools" remote="benzo" />
   <project path="prebuilts/clang/host/linux-x86" name="prebuilts_clang_host_linux-x86" remote="benzo" />
-  <project path="prebuilts/clang/host/linux-x86/7.0" name="dragontc-7.0" remote="bb" revision="dragontc" />
-  <project path="prebuilts/clang/host/linux-x86/6.0" name="dragontc-6.0" remote="bb" revision="dragontc" />
+  <project path="prebuilts/clang/host/linux-x86/7.0" name="dragontc-7.0" remote="benzo" revision="dragontc" />
+  <project path="prebuilts/clang/host/linux-x86/6.0" name="dragontc-6.0" remote="benzo" revision="dragontc" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="aarch64-linux-android-4.9" remote="bb" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="arm-linux-androideabi-4.9" remote="bb" revision="master" />
   <project path="prebuilts/go/linux-x86" name="prebuilts_go_linux-x86" remote="benzo" />
