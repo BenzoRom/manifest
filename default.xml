@@ -4,8 +4,6 @@
   <remote  name="benzo"
            fetch="https://github.com/BenzoRom/"
            revision="eightone"/>
-  <remote  name="bb"
-           fetch="https://bitbucket.org/xanaxdroid/" />
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
@@ -107,7 +105,7 @@
   <project path="vendor/benzo" name="vendor_benzo" remote="benzo" />
   <project path="vendor/dexopt-profiles" name="vendor_dexopt-profiles" remote="benzo" />
   <project path="vendor/google_devices" name="vendor_google_devices" remote="benzo" />
-  <project path="vendor/googleapps" name="vendor_googleapps" remote="bb" revision="eightone" />
+  <project path="vendor/googleapps" name="vendor_googleapps" remote="benzo" />
 
   <!-- Device & Kernel -->
   <project path="device/google/marlin" name="device_google_marlin" remote="benzo" />
