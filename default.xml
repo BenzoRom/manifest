@@ -70,6 +70,7 @@
   <project path="system/vold" name="system_vold" remote="benzo" />
 
   <!-- Externals -->
+  <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="benzo" />
   <project path="external/boringssl" name="external_boringssl" remote="benzo" />
   <project path="external/chromium-webview" name="external_chromium-webview" remote="bb" revision="eightone" />
   <project path="external/curl" name="external_curl" remote="benzo" />
