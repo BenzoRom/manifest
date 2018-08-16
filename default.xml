@@ -33,6 +33,7 @@
   <project path="art" name="art" remote="benzo" />
   <project path="bionic" name="bionic" remote="benzo" />
   <project path="system/netd" name="system_netd" remote="benzo" />
+  <project path="frameworks/av" name="frameworks_av" remote="benzo" />
   <project path="frameworks/base" name="frameworks_base" remote="benzo" />
   <project path="frameworks/compile/mclinker" name="frameworks_compile_mclinker" remote="benzo" />
   <project path="frameworks/native" name="frameworks_native" remote="benzo" />
@@ -47,6 +48,7 @@
 
   <!-- External -->
   <project path="external/aac" name="external_aac" remote="benzo" />
+  <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="benzo" />
   <project path="external/chromium-webview" name="external_chromium-webview" remote="bb" revision="ninezero" />
   <project path="external/freetype" name="external_freetype" remote="benzo" />
   <project path="external/google-fonts/googlesans" name="external_google-fonts_googlesans" remote="benzo" />
@@ -411,7 +413,6 @@
   <project path="external/xz-embedded" name="platform/external/xz-embedded" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk" />
-  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
   <project path="frameworks/data-binding" name="platform/frameworks/data-binding" groups="pdk-cw-fs,pdk-fs" />
