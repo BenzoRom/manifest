@@ -52,6 +52,7 @@
   <project path="external/aac" name="external_aac" remote="benzo" />
   <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="benzo" />
   <project path="external/chromium-webview" name="external_chromium-webview" remote="bb" revision="ninezero" />
+  <project path="external/expat" name="external_expat" remote="benzo" />
   <project path="external/freetype" name="external_freetype" remote="benzo" />
   <project path="external/google-fonts/googlesans" name="external_google-fonts_googlesans" remote="benzo" />
   <project path="external/jemalloc" name="external_jemalloc" remote="benzo" />
@@ -152,7 +153,6 @@
   <project path="external/emma" name="platform/external/emma" groups="pdk" />
   <project path="external/error_prone" name="platform/external/error_prone" groups="pdk" />
   <project path="external/esd" name="platform/external/esd" groups="pdk" />
-  <project path="external/expat" name="platform/external/expat" groups="pdk" />
   <project path="external/eyes-free" name="platform/external/eyes-free" groups="pdk" />
   <project path="external/f2fs-tools" name="platform/external/f2fs-tools" groups="pdk" />
   <project path="external/fdlibm" name="platform/external/fdlibm" groups="pdk" />
