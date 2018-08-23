@@ -41,6 +41,7 @@
   <project path="hardware/qcom/display" name="hardware_qcom_display" remote="benzo" />
   <project path="packages/apps/BenzoSettings" name="packages_apps_BenzoSettings" remote="benzo" />
   <project path="packages/apps/Browser" name="packages_apps_Browser" remote="benzo" />
+  <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="benzo" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="benzo" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="benzo" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="benzo" />
@@ -527,7 +528,6 @@
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" groups="pdk-fs" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" groups="apps_nfc,pdk-fs" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" />
-  <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" groups="pdk-fs" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" />
