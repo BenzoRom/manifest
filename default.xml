@@ -59,6 +59,7 @@
   <project path="external/google-fonts/googlesans" name="external_google-fonts_googlesans" remote="benzo" />
   <project path="external/jemalloc" name="external_jemalloc" remote="benzo" />
   <project path="external/libjpeg-turbo" name="external_libjpeg-turbo" remote="benzo" />
+  <project path="external/libpng" name="external_libpng" remote="benzo" />
   <project path="external/skia" name="external_skia" remote="benzo" />
   <project path="external/skqp" name="external_skqp" remote="benzo" />
   <project path="external/sqlite" name="external_sqlite" remote="benzo" />
@@ -249,7 +250,6 @@
   <project path="external/libopus" name="platform/external/libopus" groups="pdk" />
   <project path="external/libpcap" name="platform/external/libpcap" groups="pdk" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" groups="pdk" />
-  <project path="external/libpng" name="platform/external/libpng" groups="pdk" />
   <project path="external/libtextclassifier" name="platform/external/libtextclassifier" groups="pdk" />
   <project path="external/libunwind" name="platform/external/libunwind" groups="pdk" />
   <project path="external/libunwind_llvm" name="platform/external/libunwind_llvm" groups="pdk" />
