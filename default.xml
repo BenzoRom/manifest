@@ -47,6 +47,7 @@
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="benzo" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="benzo" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="benzo" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="benzo" />
   <project path="system/core" name="system_core" remote="benzo" />
   <project path="system/extras" name="system_extras" remote="benzo" />
 
@@ -568,7 +569,6 @@
   <project path="packages/services/Car" name="platform/packages/services/Car" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/Mms" name="platform/packages/services/Mms" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/NetworkRecommendation" name="platform/packages/services/NetworkRecommendation" groups="pdk-fs" />
-  <project path="packages/services/Telecomm" name="platform/packages/services/Telecomm" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/Telephony" name="platform/packages/services/Telephony" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" groups="pdk-fs" />
   <project path="pdk" name="platform/pdk" groups="pdk" />
