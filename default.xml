@@ -40,6 +40,7 @@
   <project path="frameworks/rs" name="frameworks_rs" remote="benzo" />
   <project path="frameworks/support" name="frameworks_support" remote="benzo" />
   <project path="hardware/qcom/display" name="hardware_qcom_display" remote="benzo" />
+  <project path="libcore" name="libcore" remote="benzo" />
   <project path="packages/apps/BenzoSettings" name="packages_apps_BenzoSettings" remote="benzo" />
   <project path="packages/apps/Browser" name="packages_apps_Browser" remote="benzo" />
   <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" remote="benzo" />
@@ -54,6 +55,7 @@
   <project path="system/extras" name="system_extras" remote="benzo" />
   <project path="system/keymaster" name="system_keymaster" remote="benzo" />
   <project path="system/netd" name="system_netd" remote="benzo" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="benzo" />
 
   <!-- External -->
   <project path="external/aac" name="external_aac" remote="benzo" />
@@ -502,7 +504,6 @@
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan,pdk-qcom" />
   <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
   <project path="kernel/configs" name="kernel/configs" groups="vts,pdk" />
-  <project path="libcore" name="platform/libcore" groups="pdk" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs,pdk-fs" />
@@ -620,7 +621,6 @@
   <project path="system/nfc" name="platform/system/nfc" groups="pdk" />
   <project path="system/nvram" name="platform/system/nvram" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
-  <project path="system/sepolicy" name="platform/system/sepolicy" groups="pdk" />
   <project path="system/timezone" name="platform/system/timezone" groups="pdk" />
   <project path="system/tools/aidl" name="platform/system/tools/aidl" groups="pdk" />
   <project path="system/tools/hidl" name="platform/system/tools/hidl" groups="pdk" />
