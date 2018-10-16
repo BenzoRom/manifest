@@ -42,7 +42,6 @@
   <project path="hardware/qcom/display" name="hardware_qcom_display" remote="benzo" />
   <project path="libcore" name="libcore" remote="benzo" />
   <project path="packages/apps/BenzoSettings" name="packages_apps_BenzoSettings" remote="benzo" />
-  <project path="packages/apps/Browser" name="packages_apps_Browser" remote="benzo" />
   <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" remote="benzo" />
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="benzo" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="benzo" />
