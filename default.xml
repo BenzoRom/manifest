@@ -66,7 +66,6 @@
   <project path="external/chromium-webview" name="external_chromium-webview" remote="bb" revision="ninezero" />
   <project path="external/expat" name="external_expat" remote="benzo" />
   <project path="external/freetype" name="external_freetype" remote="benzo" />
-  <project path="external/google-fonts/googlesans" name="external_google-fonts_googlesans" remote="benzo" />
   <project path="external/jemalloc" name="external_jemalloc" remote="benzo" />
   <project path="external/libjpeg-turbo" name="external_libjpeg-turbo" remote="benzo" />
   <project path="external/libpng" name="external_libpng" remote="benzo" />
