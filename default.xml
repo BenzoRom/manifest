@@ -65,6 +65,7 @@
   <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="benzo" />
   <project path="external/chromium-webview" name="external_chromium-webview" remote="bb" revision="ninezero" />
   <project path="external/expat" name="external_expat" remote="benzo" />
+  <project path="external/f2fs-tools" name="external_f2fs-tools" remote="benzo" />
   <project path="external/freetype" name="external_freetype" remote="benzo" />
   <project path="external/jemalloc" name="external_jemalloc" remote="benzo" />
   <project path="external/libjpeg-turbo" name="external_libjpeg-turbo" remote="benzo" />
@@ -176,7 +177,6 @@
   <project path="external/error_prone" name="platform/external/error_prone" groups="pdk" />
   <project path="external/esd" name="platform/external/esd" groups="pdk" />
   <project path="external/eyes-free" name="platform/external/eyes-free" groups="pdk" />
-  <project path="external/f2fs-tools" name="platform/external/f2fs-tools" groups="pdk" />
   <project path="external/fdlibm" name="platform/external/fdlibm" groups="pdk" />
   <project path="external/fec" name="platform/external/fec" groups="pdk" />
   <project path="external/fio" name="platform/external/fio" groups="pdk" />
