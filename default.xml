@@ -59,6 +59,7 @@
   <project path="system/libhwbinder" name="system_libhwbinder" remote="benzo" />
   <project path="system/netd" name="system_netd" remote="benzo" />
   <project path="system/sepolicy" name="system_sepolicy" remote="benzo" />
+  <project path="toolchain/pgo-profiles" name="toolchain_pgo-profiles" remote="benzo" />
 
   <!-- External -->
   <project path="external/aac" name="external_aac" remote="benzo" />
@@ -645,7 +646,6 @@
   <project path="test/vts-testcase/vndk" name="platform/test/vts-testcase/vndk" groups="vts,pdk" />
   <project path="toolchain/benchmark" name="toolchain/benchmark" />
   <project path="toolchain/binutils" name="toolchain/binutils" groups="pdk" />
-  <project path="toolchain/pgo-profiles" name="toolchain/pgo-profiles" groups="pdk" />
   <project path="tools/acloud" name="platform/tools/acloud" groups="tools,vts,pdk,tradefed" />
   <project path="tools/appbundle" name="platform/tools/appbundle" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
