@@ -65,12 +65,14 @@
   <!-- External -->
   <project path="external/aac" name="external_aac" remote="benzo" />
   <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="benzo" />
+  <project path="external/bash" name="external_bash" remote="benzo" />
   <project path="external/chromium-webview" name="external_chromium-webview" remote="bb" revision="ninezero" />
   <project path="external/expat" name="external_expat" remote="benzo" />
   <project path="external/f2fs-tools" name="external_f2fs-tools" remote="benzo" />
   <project path="external/freetype" name="external_freetype" remote="benzo" />
   <project path="external/jemalloc" name="external_jemalloc" remote="benzo" />
   <project path="external/libjpeg-turbo" name="external_libjpeg-turbo" remote="benzo" />
+  <project path="external/libncurses" name="external_libncurses" remote="benzo" />
   <project path="external/libpng" name="external_libpng" remote="benzo" />
   <project path="external/libxml2" name="external_libxml2" remote="benzo" />
   <project path="external/skia" name="external_skia" remote="benzo" />
