@@ -11,7 +11,7 @@ familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
 To initialize your local repository use a command like this:
 
-    repo init -u git://github.com/BenzoRom/manifest.git -b eightone
+    repo init -u git://github.com/BenzoRom/manifest.git -b ninezero
 
 Then to sync up:
 
@@ -23,18 +23,18 @@ Instructions for building with Arch Linux
 
 Install the needed packages
 ---------------------------
-yaourt -S gcc-multilib repo git gnupg flex bison gperf sdl wxgtk squashfs-tools curl ncurses zlib schedtool perl-switch zip unzip libxslt python2-virtualenv bc rsync ccache java-environment ncurses5-compat-libs lib32-zlib lib32-ncurses lib32-readline lib32-ncurses5-compat-libs ffmpeg ninja lzop pngcrush imagemagick
+yay -S gcc-multilib repo git gnupg flex bison gperf sdl wxgtk squashfs-tools curl ncurses zlib schedtool perl-switch zip unzip libxslt python2-virtualenv bc rsync ccache java-environment ncurses5-compat-libs lib32-zlib lib32-ncurses lib32-readline lib32-ncurses5-compat-libs ffmpeg ninja lzop pngcrush imagemagick
 
 To set up adb
 -------------
-yaourt -S android-tools android-udev
+yay -S android-tools android-udev
 
 Then run: gpasswd -a yourusername adbusers
 
 
 To build using Oracle Java
 --------------------------
-yaourt -S jdk
+yay -S jdk
 
 Then run "archlinux-java status" to see which versions you have installed.
 
