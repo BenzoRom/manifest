@@ -35,6 +35,7 @@
   <!-- System -->
   <project path="art" name="art" remote="benzo" />
   <project path="bionic" name="bionic" remote="benzo" />
+  <project path="bootable/recovery" name="bootable_recovery" remote="benzo" />
   <project path="frameworks/av" name="frameworks_av" remote="benzo" />
   <project path="frameworks/base" name="frameworks_base" remote="benzo" />
   <project path="frameworks/compile/mclinker" name="frameworks_compile_mclinker" remote="benzo" />
@@ -58,6 +59,7 @@
   <project path="system/libhwbinder" name="system_libhwbinder" remote="benzo" />
   <project path="system/netd" name="system_netd" remote="benzo" />
   <project path="system/sepolicy" name="system_sepolicy" remote="benzo" />
+  <project path="system/vold" name="system_vold" remote="benzo" />
   <project path="toolchain/pgo-profiles" name="toolchain_pgo-profiles" remote="benzo" />
 
   <!-- External -->
@@ -104,7 +106,6 @@
   <project path="vendor/googleapps" name="vendor_googleapps" remote="bb" revision="ninezero" />
 
   <!-- AOSP -->
-  <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="compatibility/cdd" name="platform/compatibility/cdd" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" />
@@ -590,7 +591,6 @@
   <project path="system/tools/hidl" name="platform/system/tools/hidl" groups="pdk" />
   <project path="system/tpm" name="platform/system/tpm" />
   <project path="system/update_engine" name="platform/system/update_engine" groups="pdk" />
-  <project path="system/vold" name="platform/system/vold" groups="pdk" />
   <project path="test/framework" name="platform/test/framework" groups="vts,pdk" />
   <project path="test/suite_harness" name="platform/test/suite_harness" groups="cts,pdk-cw-fs,pdk-fs" />
   <project path="test/vti/dashboard" name="platform/test/vti/dashboard" groups="vts,pdk" />
