@@ -85,9 +85,7 @@
   <!-- Prebuilts -->
   <project path="prebuilts/build-tools" name="prebuilts_build-tools" remote="benzo" />
   <project path="prebuilts/clang/host/linux-x86" name="prebuilts_clang_host_linux-x86" remote="benzo" />
-  <project path="prebuilts/clang/host/linux-x86/7.0" name="dragontc-7.0" remote="bb" revision="dragontc" />
-  <project path="prebuilts/clang/host/linux-x86/8.0" name="dragontc-8.0" remote="bb" revision="dragontc" />
-  <project path="prebuilts/clang/host/linux-x86/9.0" name="dragontc-9.0" remote="bb" revision="dragontc" />
+  <project path="prebuilts/clang/host/linux-x86/10.0" name="dragontc-10.0" remote="bb" revision="dragontc" />
   <project path="prebuilts/go/linux-x86" name="prebuilts_go_linux-x86" remote="benzo" />
   <project path="prebuilts/r8" name="prebuilts_r8" remote="benzo" />
   <!-- Prebuilts AOSP -->
