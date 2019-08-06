@@ -96,8 +96,6 @@
   <!-- Device & Kernel -->
   <project path="device/google/crosshatch" name="device_google_crosshatch" remote="benzo" />
   <project path="kernel/google/crosshatch" name="kernel_google_crosshatch" remote="benzo" />
-  <project path="device/google/marlin" name="device_google_marlin" remote="benzo" />
-  <project path="kernel/google/marlin" name="kernel_google_marlin" remote="benzo" />
 
   <!-- Vendor -->
   <project path="vendor/benzo" name="vendor_benzo" remote="benzo" />
