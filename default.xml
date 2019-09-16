@@ -30,6 +30,11 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+
+  <!-- Vendor -->
+  <project path="vendor/benzo" name="vendor_benzo" remote="benzo" />
+  <project path="vendor/googleapps" name="vendor_googleapps" remote="bb" revision="tenzero" />
+
   <project path="art" name="platform/art" groups="pdk" />
   <project path="bionic" name="platform/bionic" groups="pdk" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
