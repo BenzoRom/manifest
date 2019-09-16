@@ -31,8 +31,13 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <!-- Device & Kernel -->
+  <project path="device/google/crosshatch" name="device_google_crosshatch" remote="benzo" />
+  <project path="kernel/google/crosshatch" name="kernel_google_crosshatch" remote="benzo" />
+
   <!-- Vendor -->
   <project path="vendor/benzo" name="vendor_benzo" remote="benzo" />
+  <project path="vendor/google_devices/crosshatch" name="vendor_google_devices_crosshatch" remote="benzo" />
   <project path="vendor/googleapps" name="vendor_googleapps" remote="bb" revision="tenzero" />
 
   <project path="art" name="platform/art" groups="pdk" />
