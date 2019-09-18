@@ -32,6 +32,7 @@
 
   <!-- System -->
   <project path="frameworks/base" name="frameworks_base" remote="benzo" />
+  <project path="packages/apps/Settings" name="packages_apps_BenzoSettings" remote="benzo" />
   <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" remote="benzo" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="benzo" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="benzo" />
