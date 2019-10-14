@@ -47,6 +47,7 @@
   <project path="system/sepolicy" name="system_sepolicy" remote="benzo" />
 
   <!-- External -->
+  <project path="external/f2fs-tools" name="external_f2fs-tools" remote="benzo" />
   <project path="external/skia" name="external_skia" remote="benzo" />
   <project path="external/skqp" name="external_skqp" remote="benzo" />
   <project path="external/sqlite" name="external_sqlite" remote="benzo" />
@@ -148,7 +149,6 @@
   <project path="external/epid-sdk" name="platform/external/epid-sdk" groups="pdk" />
   <project path="external/error_prone" name="platform/external/error_prone" groups="pdk" />
   <project path="external/expat" name="platform/external/expat" groups="pdk" />
-  <project path="external/f2fs-tools" name="platform/external/f2fs-tools" groups="pdk" />
   <project path="external/fdlibm" name="platform/external/fdlibm" groups="pdk" />
   <project path="external/fec" name="platform/external/fec" groups="pdk" />
   <project path="external/flac" name="platform/external/flac" groups="pdk" />
