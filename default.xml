@@ -55,6 +55,7 @@
 
   <!-- Prebuilts -->
   <project path="prebuilts/clang/host/linux-x86" name="prebuilts_clang_host_linux-x86" remote="benzo" />
+  <project path="prebuilts/clang/host/linux-x86/10.0" name="benzoClang-10.0" remote="benzo" revision="master" />
   <project path="prebuilts/build-tools" name="prebuilts_build-tools" remote="benzo" />
   <project path="prebuilts/r8" name="prebuilts_r8" remote="benzo" />
   <project path="prebuilts/openssl" name="LineageOS/android_prebuilts_openssl" remote="github" />
