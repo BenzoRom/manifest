@@ -49,7 +49,9 @@
   <project path="system/sepolicy" name="system_sepolicy" remote="benzo" />
 
   <!-- External -->
+  <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="benzo" />
   <project path="external/f2fs-tools" name="external_f2fs-tools" remote="benzo" />
+  <project path="external/kernel-headers" name="external_kernel-headers" remote="benzo" />
   <project path="external/skia" name="external_skia" remote="benzo" />
   <project path="external/skqp" name="external_skqp" remote="benzo" />
   <project path="external/sqlite" name="external_sqlite" remote="benzo" />
@@ -101,7 +103,6 @@
   <project path="external/apache-xml" name="platform/external/apache-xml" groups="pdk" />
   <project path="external/archive-patcher" name="platform/external/archive-patcher" groups="pdk" />
   <project path="external/arm-neon-tests" name="platform/external/arm-neon-tests" groups="vendor" />
-  <project path="external/arm-optimized-routines" name="platform/external/arm-optimized-routines" groups="pdk" />
   <project path="external/autotest" name="platform/external/autotest" groups="pdk-fs" />
   <project path="external/avb" name="platform/external/avb" groups="pdk" />
   <project path="external/bcc" name="platform/external/bcc" groups="pdk" />
@@ -216,7 +217,6 @@
   <project path="external/jsr330" name="platform/external/jsr330" groups="pdk" />
   <project path="external/junit" name="platform/external/junit" groups="pdk" />
   <project path="external/junit-params" name="platform/external/junit-params" groups="pdk" />
-  <project path="external/kernel-headers" name="platform/external/kernel-headers" groups="pdk" />
   <project path="external/kmod" name="platform/external/kmod" groups="pdk" />
   <project path="external/kotlinc" name="platform/external/kotlinc" groups="pdk" />
   <project path="external/ksoap2" name="platform/external/ksoap2" groups="pdk" />
