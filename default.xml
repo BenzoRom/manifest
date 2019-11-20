@@ -72,6 +72,7 @@
 
   <!-- Vendor -->
   <project path="vendor/benzo" name="vendor_benzo" remote="benzo" />
+  <project path="vendor/dexopt_profiles" name="vendor_dexopt_profiles" remote="benzo" />
   <project path="vendor/google_devices/crosshatch" name="vendor_google_devices_crosshatch" remote="benzo" />
   <project path="vendor/googleapps" name="vendor_googleapps" remote="bb" revision="tenzero" />
 
