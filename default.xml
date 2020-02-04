@@ -51,11 +51,14 @@
 
   <!-- External -->
   <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="benzo" />
+  <project path="external/boringssl" name="external_boringssl" remote="benzo" />
   <project path="external/f2fs-tools" name="external_f2fs-tools" remote="benzo" />
   <project path="external/kernel-headers" name="external_kernel-headers" remote="benzo" />
   <project path="external/skia" name="external_skia" remote="benzo" />
   <project path="external/skqp" name="external_skqp" remote="benzo" />
+  <project path="external/sonivox" name="external_sonivox" remote="benzo" />
   <project path="external/sqlite" name="external_sqlite" remote="benzo" />
+  <project path="external/tremolo" name="external_tremolo" remote="benzo" />
   <project path="external/zlib" name="external_zlib" remote="benzo" />
 
   <!-- Prebuilts -->
@@ -110,7 +113,6 @@
   <project path="external/avb" name="platform/external/avb" groups="pdk" />
   <project path="external/bcc" name="platform/external/bcc" groups="pdk" />
   <project path="external/blktrace" name="platform/external/blktrace" groups="pdk" />
-  <project path="external/boringssl" name="platform/external/boringssl" groups="pdk" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" groups="pdk" />
   <project path="external/brotli" name="platform/external/brotli" groups="pdk" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
@@ -398,7 +400,6 @@
   <project path="external/smali" name="platform/external/smali" groups="pdk" />
   <project path="external/snakeyaml" name="platform/external/snakeyaml" groups="pdk" />
   <project path="external/sonic" name="platform/external/sonic" groups="pdk" />
-  <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
   <project path="external/speex" name="platform/external/speex" groups="pdk" />
   <project path="external/spirv-llvm" name="platform/external/spirv-llvm" groups="pdk" />
   <project path="external/squashfs-tools" name="platform/external/squashfs-tools" groups="pdk" />
@@ -417,7 +418,6 @@
   <project path="external/tinyxml2" name="platform/external/tinyxml2" groups="pdk" />
   <project path="external/toolchain-utils" name="platform/external/toolchain-utils" />
   <project path="external/toybox" name="platform/external/toybox" groups="pdk" />
-  <project path="external/tremolo" name="platform/external/tremolo" groups="pdk" />
   <project path="external/turbine" name="platform/external/turbine" groups="pdk" />
   <project path="external/u-boot" name="platform/external/u-boot" groups="pdk" />
   <project path="external/unicode" name="platform/external/unicode" groups="pdk" />
