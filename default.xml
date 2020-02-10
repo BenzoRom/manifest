@@ -59,6 +59,7 @@
   <project path="external/sonivox" name="external_sonivox" remote="benzo" />
   <project path="external/sqlite" name="external_sqlite" remote="benzo" />
   <project path="external/tremolo" name="external_tremolo" remote="benzo" />
+  <project path="external/vixl" name="external_vixl" remote="benzo" />
   <project path="external/zlib" name="external_zlib" remote="benzo" />
 
   <!-- Prebuilts -->
@@ -427,7 +428,6 @@
   <project path="external/v8" name="platform/external/v8" groups="pdk" />
   <project path="external/vboot_reference" name="platform/external/vboot_reference" groups="vboot,pdk-fs" />
   <project path="external/virglrenderer" name="platform/external/virglrenderer" groups="pdk" />
-  <project path="external/vixl" name="platform/external/vixl" groups="pdk" />
   <project path="external/vogar" name="platform/external/vogar" groups="pdk" />
   <project path="external/volley" name="platform/external/volley" groups="pdk" />
   <project path="external/vulkan-headers" name="platform/external/vulkan-headers" groups="pdk" />
