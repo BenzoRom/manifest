@@ -37,6 +37,7 @@
   <!-- System -->
   <project path="art" name="art" remote="benzo" />
   <project path="bionic" name="bionic" remote="benzo" />
+  <project path="frameworks/av" name="frameworks_av" remote="benzo" />
   <project path="frameworks/base" name="frameworks_base" remote="benzo" />
   <project path="frameworks/native" name="frameworks_native" remote="benzo" />
   <project path="packages/apps/BenzoSettings" name="packages_apps_BenzoSettings" remote="benzo" />
@@ -445,7 +446,6 @@
   <project path="external/yapf" name="platform/external/yapf" groups="vts,projectarch,pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk" />
-  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
