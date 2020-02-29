@@ -49,6 +49,7 @@
   <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="benzo" />
   <project path="system/core" name="system_core" remote="benzo" />
   <project path="system/extras" name="system_extras" remote="benzo" />
+  <project path="system/libhidl" name="system_libhidl" remote="benzo" />
   <project path="system/sepolicy" name="system_sepolicy" remote="benzo" />
 
   <!-- External -->
@@ -56,6 +57,7 @@
   <project path="external/boringssl" name="external_boringssl" remote="benzo" />
   <project path="external/f2fs-tools" name="external_f2fs-tools" remote="benzo" />
   <project path="external/kernel-headers" name="external_kernel-headers" remote="benzo" />
+  <project path="external/perfetto" name="external_perfetto" remote="benzo" />
   <project path="external/skia" name="external_skia" remote="benzo" />
   <project path="external/skqp" name="external_skqp" remote="benzo" />
   <project path="external/sonivox" name="external_sonivox" remote="benzo" />
@@ -319,7 +321,6 @@
   <project path="external/pcre" name="platform/external/pcre" groups="pdk" />
   <project path="external/pdfium" name="platform/external/pdfium" groups="pdk" />
   <project path="external/perf_data_converter" name="platform/external/perf_data_converter" groups="pdk" />
-  <project path="external/perfetto" name="platform/external/perfetto" groups="pdk" />
   <project path="external/piex" name="platform/external/piex" groups="pdk" />
   <project path="external/ply" name="platform/external/ply" groups="pdk" />
   <project path="external/ppp" name="platform/external/ppp" groups="pdk" />
@@ -687,7 +688,6 @@
   <project path="system/iorap" name="platform/system/iorap" groups="pdk" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
   <project path="system/libfmq" name="platform/system/libfmq" groups="pdk" />
-  <project path="system/libhidl" name="platform/system/libhidl" groups="pdk" />
   <project path="system/libhwbinder" name="platform/system/libhwbinder" groups="pdk" />
   <project path="system/libsysprop" name="platform/system/libsysprop" groups="pdk" />
   <project path="system/libufdt" name="platform/system/libufdt" groups="pdk" />
