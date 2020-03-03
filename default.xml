@@ -46,7 +46,6 @@
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="benzo" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="benzo" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="benzo" />
-  <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="benzo" />
   <project path="system/core" name="system_core" remote="benzo" />
   <project path="system/extras" name="system_extras" remote="benzo" />
   <project path="system/libhidl" name="system_libhidl" remote="benzo" />
