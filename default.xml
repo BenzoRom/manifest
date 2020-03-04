@@ -73,7 +73,6 @@
   <project path="prebuilts/build-tools" name="prebuilts_build-tools" remote="benzo" />
   <project path="prebuilts/go/linux-x86" name="prebuilts_go_linux-x86" remote="benzo" />
   <project path="prebuilts/r8" name="prebuilts_r8" remote="benzo" />
-  <project path="prebuilts/openssl" name="LineageOS/android_prebuilts_openssl" remote="github" revision="lineage-17.0" />
 
   <!-- Device & Kernel -->
   <project path="device/google/crosshatch" name="device_google_crosshatch" remote="benzo" />
