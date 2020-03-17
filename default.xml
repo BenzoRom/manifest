@@ -57,6 +57,7 @@
   <project path="external/f2fs-tools" name="external_f2fs-tools" remote="benzo" />
   <project path="external/kernel-headers" name="external_kernel-headers" remote="benzo" />
   <project path="external/perfetto" name="external_perfetto" remote="benzo" />
+  <project path="external/selinux" name="external_selinux" remote="benzo" />
   <project path="external/skia" name="external_skia" remote="benzo" />
   <project path="external/skqp" name="external_skqp" remote="benzo" />
   <project path="external/sonivox" name="external_sonivox" remote="benzo" />
@@ -392,7 +393,6 @@
   <project path="external/scapy" name="platform/external/scapy" groups="pdk-fs" />
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" />
   <project path="external/seccomp-tests" name="platform/external/seccomp-tests" groups="pdk" />
-  <project path="external/selinux" name="platform/external/selinux" groups="pdk" />
   <project path="external/setupcompat" name="platform/external/setupcompat" groups="pdk" />
   <project path="external/setupdesign" name="platform/external/setupdesign" groups="pdk" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk,qcom_msm8x26" />
