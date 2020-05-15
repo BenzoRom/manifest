@@ -1,18 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<!--
-    This branch is a master side branch and is configured to have all project
-    specific rules. When updating this manifest file, please also update the
-    project rule in google3 to ensure new projects get testing.
-    See go/side-branch-testing for details.
--->
+
+  <remote  name="github"
+           fetch="https://github.com/"
+           revision="master" />
+
+  <remote  name="go-upstream"
+           fetch="https://go.googlesource.com/"
+           revision="release-branch.go1.14" />
 
   <remote  name="aosp"
            fetch=".."
            review="https://android-review.googlesource.com/" />
-  <default revision="master"
-           remote="aosp"
-           sync-j="4" />
+
+  <default remote="aosp"
+           revision="master"
+           sync-c="true"
+           sync-j="4"
+           sync-tags="false" />
 
   <!-- build projects -->
   <project path="build/make" name="platform/build" >
@@ -29,22 +34,12 @@
 
   <!-- toolchain linux prebuilts -->
   <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" groups="linux" clone-depth="1" />
+  <project path="prebuilts/clang/host/linux-x86/clang-benzo" name="BenzoRom/benzoClang-11.0" remote="github" groups="linux" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" clone-depth="1" />
   <project path="prebuilts/go/linux-x86" name="platform/prebuilts/go/linux-x86" groups="linux" clone-depth="1" />
   <project path="prebuilts/ninja/linux-x86" name="platform/prebuilts/ninja/linux-x86" groups="linux" clone-depth="1" />
-
-  <!-- toolchain darwin prebuilts -->
-  <project path="prebuilts/clang/host/darwin-x86" name="platform/prebuilts/clang/host/darwin-x86" groups="darwin" clone-depth="1" />
-  <project path="prebuilts/gcc/darwin-x86/host/headers" name="platform/prebuilts/gcc/darwin-x86/host/headers" groups="darwin" clone-depth="1" />
-  <project path="prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" groups="darwin" clone-depth="1" />
-  <project path="prebuilts/go/darwin-x86" name="platform/prebuilts/go/darwin-x86" groups="darwin" clone-depth="1" />
-  <project path="prebuilts/ninja/darwin-x86" name="platform/prebuilts/ninja/darwin-x86" groups="darwin" clone-depth="1" />
-
-  <!-- toolchain windows prebuilts -->
-  <project path="prebuilts/clang/host/windows-x86" name="platform/prebuilts/clang/host/windows-x86" groups="linux" clone-depth="1" />
-  <project path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" groups="linux" clone-depth="1" />
 
   <!-- toolchain jdk prebuilts -->
   <project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" clone-depth="1" />
@@ -99,20 +94,22 @@
   <project path="build/kati" name="platform/build/kati" />
   <project path="dalvik" name="platform/dalvik" />
   <project path="external/bc" name="platform/external/bc" />
-  <project path="external/bison" name="platform/external/bison" />
+  <project path="external/bison" name="platform/external/bison" revision="a8ab20ff88a9b962a8eb39cdb6944a2354f78748" />
   <project path="external/bzip2" name="platform/external/bzip2" />
   <project path="external/desugar" name="platform/external/desugar" />
   <project path="external/flex" name="platform/external/flex" />
-  <project path="external/ninja" name="platform/external/ninja" />
-  <project path="external/nsjail" name="platform/external/nsjail" />
+  <project path="external/lz4" name="platform/external/lz4" />
+  <project path="external/ninja" name="mydongistiny/ninja" remote="github" />
+  <project path="external/nsjail" name="mydongistiny/external_nsjail" remote="github" />
   <project path="external/one-true-awk" name="platform/external/one-true-awk" />
   <project path="external/python/cpython2" name="platform/external/python/cpython2" />
   <project path="external/toybox" name="platform/external/toybox" />
   <project path="external/turbine" name="platform/external/turbine" />
   <project path="system/tools/aidl" name="platform/system/tools/aidl" />
   <project path="system/tools/hidl" name="platform/system/tools/hidl" />
-  <project name="toolchain/go" />
+  <project path="toolchain/go" name="go" remote="go-upstream" />
   <project name="toolchain/m4" />
   <project name="toolchain/make" />
   <project name="toolchain/xz" />
+
 </manifest>
