@@ -4,14 +4,17 @@
   <remote  name="benzo"
            fetch="https://github.com/BenzoRom/"
            revision="tenzero"/>
-  <remote  name="bb"
+
+  <remote  name="bitbucket"
            fetch="https://bitbucket.org/xanaxdroid/" />
+
   <remote  name="github"
-           fetch="https://github.com/"
-           revision="tenzero"/>
+           fetch="https://github.com/"/>
+
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
+
   <default revision="refs/tags/android-10.0.0_r35"
            remote="aosp"
            sync-c="true"
@@ -84,7 +87,7 @@
   <project path="vendor/benzo" name="vendor_benzo" remote="benzo" />
   <project path="vendor/dexopt_profiles" name="vendor_dexopt_profiles" remote="benzo" />
   <project path="vendor/google_devices/crosshatch" name="vendor_google_devices_crosshatch" remote="benzo" />
-  <project path="vendor/googleapps" name="vendor_googleapps" remote="bb" revision="tenzero" />
+  <project path="vendor/googleapps" name="vendor_googleapps" remote="bitbucket" revision="tenzero" />
 
   <!-- AOSP -->
   <project path="build/kati" name="platform/build/kati" groups="pdk,tradefed" />
@@ -654,7 +657,7 @@
   <project path="prebuilts/gdb/linux-x86" name="platform/prebuilts/gdb/linux-x86" groups="linux,pdk" clone-depth="1" />
   <project path="prebuilts/gradle-plugin" name="platform/prebuilts/gradle-plugin" groups="pdk,pdk-cw-fs,pdk-fs" clone-depth="1" />
   <project path="prebuilts/jdk/jdk8" name="platform/prebuilts/jdk/jdk8" groups="pdk" clone-depth="1" />
-  <project path="prebuilts/jdk/jdk9" name="platform/prebuilts/jdk/jdk9" groups="pdk" clone-depth="1" />
+  <project path="prebuilts/jdk/jdk9" name="platform/prebuilts/jdk/jdk9" groups="pdk" clone-depth="1" revision="3447ef32fa4961229942fa345c8707c7f9e00246" />
   <project path="prebuilts/manifest-merger" name="platform/prebuilts/manifest-merger" groups="pdk" clone-depth="1" />
   <project path="prebuilts/maven_repo/android" name="platform/prebuilts/maven_repo/android" groups="pdk-cw-fs,pdk-fs" clone-depth="1" />
   <project path="prebuilts/maven_repo/bumptech" name="platform/prebuilts/maven_repo/bumptech" groups="pdk-cw-fs,pdk-fs" clone-depth="1" />
