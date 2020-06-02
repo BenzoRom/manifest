@@ -59,6 +59,7 @@
   <project path="external/boringssl" name="external_boringssl" remote="benzo" />
   <project path="external/f2fs-tools" name="external_f2fs-tools" remote="benzo" />
   <project path="external/kernel-headers" name="external_kernel-headers" remote="benzo" />
+  <project path="external/libjpeg-turbo" name="external_libjpeg-turbo" remote="benzo" />
   <project path="external/perfetto" name="external_perfetto" remote="benzo" />
   <project path="external/selinux" name="external_selinux" remote="benzo" />
   <project path="external/skia" name="external_skia" remote="benzo" />
@@ -253,7 +254,6 @@
   <project path="external/libgav1" name="platform/external/libgav1" groups="pdk" />
   <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" />
   <project path="external/libhevc" name="platform/external/libhevc" groups="pdk" />
-  <project path="external/libjpeg-turbo" name="platform/external/libjpeg-turbo" groups="pdk" />
   <project path="external/libkmsxx" name="platform/external/libkmsxx" groups="pdk" />
   <project path="external/libldac" name="platform/external/libldac" groups="pdk" />
   <project path="external/libmpeg2" name="platform/external/libmpeg2" groups="pdk" />
