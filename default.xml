@@ -45,7 +45,6 @@
   <project path="frameworks/native" name="frameworks_native" remote="benzo" />
   <project path="libcore" name="libcore" remote="benzo" />
   <project path="packages/apps/BenzoSettings" name="packages_apps_BenzoSettings" remote="benzo" />
-  <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" remote="benzo" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="benzo" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="benzo" />
   <project path="packages/modules/ANGLE" name="packages_modules_ANGLE" remote="benzo" />
@@ -573,6 +572,7 @@
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" groups="pdk-fs" />
   <project path="packages/apps/DevCamera" name="platform/packages/apps/DevCamera" groups="pdk" />
   <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" groups="pdk-fs" />
+  <project path="packages/apps/DocumentsUI" name="platform/packages/apps/DocumentsUI" groups="pdk-fs" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" groups="pdk-fs" />
   <project path="packages/apps/EmergencyInfo" name="platform/packages/apps/EmergencyInfo" groups="pdk-fs" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" groups="pdk-fs" />
