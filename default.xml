@@ -52,6 +52,7 @@
   <project path="system/core" name="system_core" remote="benzo" />
   <project path="system/extras" name="system_extras" remote="benzo" />
   <project path="system/libhidl" name="system_libhidl" remote="benzo" />
+  <project path="system/security" name="system_security" remote="benzo" />
   <project path="system/sepolicy" name="system_sepolicy" remote="benzo" />
 
   <!-- External -->
@@ -699,7 +700,6 @@
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/nfc" name="platform/system/nfc" groups="pdk" />
   <project path="system/nvram" name="platform/system/nvram" groups="pdk" />
-  <project path="system/security" name="platform/system/security" groups="pdk" />
   <project path="system/server_configurable_flags" name="platform/system/server_configurable_flags" groups="pdk"/>
   <project path="system/testing/gtest_extras" name="platform/system/testing/gtest_extras" groups="pdk" />
   <project path="system/timezone" name="platform/system/timezone" groups="pdk" />
