@@ -73,8 +73,7 @@
 
   <!-- Prebuilts -->
   <project path="prebuilts/clang/host/linux-x86" name="prebuilts_clang_host_linux-x86" remote="benzo" />
-  <project path="prebuilts/clang/host/linux-x86/10.0" name="benzoClang-10.0" remote="benzo" revision="master" />
-  <project path="prebuilts/clang/host/linux-x86/11.0" name="benzoClang-11.0" remote="benzo" revision="master" />
+  <project path="prebuilts/clang/host/linux-x86/12.0" name="benzoClang-12.0" remote="benzo" revision="master" />
   <project path="prebuilts/clang-tools" name="prebuilts_clang-tools" remote="benzo" />
   <project path="prebuilts/build-tools" name="prebuilts_build-tools" remote="benzo" />
   <project path="prebuilts/go/linux-x86" name="prebuilts_go_linux-x86" remote="benzo" />
