@@ -38,7 +38,9 @@
 
   <!-- System -->
   <project path="frameworks/base" name="frameworks_base" remote="benzo" />
+  <project path="packages/apps/BenzoSettings" name="packages_apps_BenzoSettings" remote="benzo" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="benzo" />
+  <project path="system/chre" name="system_chre" remote="benzo" />
   <project path="system/core" name="system_core" remote="benzo" />
   <project path="system/security" name="system_security" remote="benzo" />
 
@@ -702,7 +704,6 @@
   <project path="system/bpf" name="platform/system/bpf" groups="pdk" />
   <project path="system/bpfprogs" name="platform/system/bpfprogs" groups="pdk" />
   <project path="system/ca-certificates" name="platform/system/ca-certificates" groups="pdk" />
-  <project path="system/chre" name="platform/system/chre" groups="pdk" />
   <project path="system/connectivity/wificond" name="platform/system/connectivity/wificond" groups="pdk" />
   <project path="system/connectivity/wifilogd" name="platform/system/connectivity/wifilogd" groups="pdk" />
   <project path="system/extras" name="platform/system/extras" groups="pdk" />
