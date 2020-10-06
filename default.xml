@@ -22,7 +22,7 @@
            sync-tags="false" />
 
   <!-- Build -->
-  <project path="build/make" name="platform/build" remote="benzo" >
+  <project path="build/make" name="build" remote="benzo" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
