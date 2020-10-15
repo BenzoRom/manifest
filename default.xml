@@ -62,6 +62,13 @@
   <project path="vendor/google_devices/crosshatch" name="vendor_google_devices_crosshatch" remote="benzo" />
   <project path="vendor/googleapps" name="xanaxdroid/vendor_googleapps" remote="bitbucket" revision="android11" />
 
+  <!-- Different Revisions -->
+  <project path="external/google-fonts/barlow" name="platform/external/google-fonts/barlow" revision="android11-d1-release" />
+  <project path="external/google-fonts/big-shoulders-text" name="platform/external/google-fonts/big-shoulders-text" revision="android11-d1-release" />
+  <project path="external/google-fonts/fraunces" name="platform/external/google-fonts/fraunces" revision="android11-d1-release" />
+  <project path="external/google-fonts/karla" name="platform/external/google-fonts/karla" revision="android11-d1-release" />
+  <project path="external/google-fonts/lustria" name="platform/external/google-fonts/lustria" revision="android11-d1-release" />
+
   <!-- AOSP Repos -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
   <project path="art" name="platform/art" groups="pdk" />
@@ -174,11 +181,6 @@
   <project path="external/google-benchmark" name="platform/external/google-benchmark" groups="pdk" />
   <project path="external/google-breakpad" name="platform/external/google-breakpad" groups="pdk-fs" />
   <project path="external/google-fonts/arbutus-slab" name="platform/external/google-fonts/arbutus-slab" groups="pdk" />
-  <project path="external/google-fonts/barlow" name="platform/external/google-fonts/barlow" groups="pdk" />
-  <project path="external/google-fonts/karla" name="platform/external/google-fonts/karla" groups="pdk" />
-  <project path="external/google-fonts/lustria" name="platform/external/google-fonts/lustria" groups="pdk" />
-  <project path="external/google-fonts/fraunces" name="platform/external/google-fonts/fraunces" groups="pdk" />
-  <project path="external/google-fonts/big-shoulders-text" name="platform/external/google-fonts/big-shoulders-text" groups="pdk" />
   <project path="external/google-fonts/arvo" name="platform/external/google-fonts/arvo" groups="pdk" />
   <project path="external/google-fonts/carrois-gothic-sc" name="platform/external/google-fonts/carrois-gothic-sc" groups="pdk" />
   <project path="external/google-fonts/coming-soon" name="platform/external/google-fonts/coming-soon" groups="pdk" />
