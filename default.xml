@@ -47,7 +47,10 @@
   <project path="system/security" name="system_security" remote="benzo" />
 
   <!-- Device and Kernel -->
+  <project path="device/google/bramble" name="device_google_bramble" remote="benzo" />
   <project path="device/google/crosshatch" name="device_google_crosshatch" remote="benzo" />
+  <project path="device/google/redbull" name="device_google_redbull" remote="benzo" />
+  <project path="kernel/google/bramble" name="kernel_google_bramble" remote="benzo" />
   <project path="kernel/google/crosshatch" name="kernel_google_crosshatch" remote="benzo" />
 
   <!-- Prebuilts -->
@@ -59,6 +62,7 @@
 
   <!-- Vendors -->
   <project path="vendor/benzo" name="vendor_benzo" remote="benzo" />
+  <project path="vendor/google_devices/bramble" name="vendor_google_devices_bramble" remote="benzo" />
   <project path="vendor/google_devices/crosshatch" name="vendor_google_devices_crosshatch" remote="benzo" />
   <project path="vendor/googleapps" name="xanaxdroid/vendor_googleapps" remote="bitbucket" revision="android11" />
 
