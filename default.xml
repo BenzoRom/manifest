@@ -56,6 +56,7 @@
   <project path="prebuilts/build-tools" name="prebuilts_build-tools" remote="benzo" />
   <project path="prebuilts/clang/host/linux-x86" name="prebuilts_clang_host_linux-x86" remote="benzo" />
   <project path="prebuilts/clang/host/linux-x86/clang-benzo" name="benzoClang-12.0" remote="benzo" revision="master" />
+  <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" revision="05711ec41f24d15e13c3cb85f1e12735e3421e08" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" clone-depth="1" revision="84fb09fafc92a3d9b4d160f049d46c3c784cc941" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" clone-depth="1" revision="5a8beef7b1aa2c8ca0dfe4a00358559d12dfa3b6" />
 
