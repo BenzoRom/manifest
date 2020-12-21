@@ -15,7 +15,7 @@ To initialize your local repository use a command like this:
 
 Then to sync up:
 
-    repo sync -f -j$(nproc --all)
+    repo sync -j$(nproc --all)
 
 
 Instructions for building with Arch Linux

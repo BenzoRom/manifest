@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Remotes -->
+  <remote  name="benzo"
+           fetch="https://github.com/BenzoRom/"
+           revision="android11"/>
+
+  <remote  name="github"
+           fetch="https://github.com/"/>
+
+  <remote  name="bitbucket"
+           fetch="https://bitbucket.org/" />
+
+  <!-- AOSP repos to remove -->
+  <include name="remove.xml" />
+
+  <!-- Build -->
+  <project path="build/make" name="build" remote="benzo" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="build_soong" remote="benzo" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <!-- System -->
+  <project path="art" name="art" remote="benzo" />
+  <project path="bionic" name="bionic" remote="benzo" />
+  <project path="external/cpu_features" name="external_cpu_features" remote="benzo" />
+  <project path="frameworks/base" name="frameworks_base" remote="benzo" />
+  <project path="packages/apps/BenzoSettings" name="packages_apps_BenzoSettings" remote="benzo" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="benzo" />
+  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="benzo" />
+  <project path="system/core" name="system_core" remote="benzo" />
+  <project path="system/security" name="system_security" remote="benzo" />
+
+  <!-- Device and Kernel -->
+  <project path="device/google/bramble" name="device_google_bramble" remote="benzo" />
+  <project path="device/google/redbull" name="device_google_redbull" remote="benzo" />
+  <project path="kernel/google/bramble" name="kernel_google_bramble" remote="benzo" />
+
+  <!-- Prebuilts -->
+  <project path="prebuilts/build-tools" name="prebuilts_build-tools" remote="benzo" />
+  <project path="prebuilts/clang/host/linux-x86" name="prebuilts_clang_host_linux-x86" remote="benzo" />
+  <project path="prebuilts/clang/host/linux-x86/clang-benzo" name="benzoClang-12.0" remote="benzo" revision="master" />
+  <project path="prebuilts/clang-tools" name="prebuilts_clang-tools" remote="benzo" />
+  <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" revision="05711ec41f24d15e13c3cb85f1e12735e3421e08" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" clone-depth="1" revision="84fb09fafc92a3d9b4d160f049d46c3c784cc941" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" clone-depth="1" revision="5a8beef7b1aa2c8ca0dfe4a00358559d12dfa3b6" />
+
+  <!-- Vendors -->
+  <project path="vendor/benzo" name="vendor_benzo" remote="benzo" />
+  <project path="vendor/google_devices/bramble" name="vendor_google_devices_bramble" remote="benzo" />
+  <project path="vendor/googleapps" name="xanaxdroid/vendor_googleapps" remote="bitbucket" revision="android11" />
+
+</manifest>
