@@ -47,7 +47,7 @@
   <!-- Device and Kernel -->
   <project path="device/google/bramble" name="device_google_bramble" remote="benzo" />
   <project path="device/google/redbull" name="device_google_redbull" remote="benzo" />
-  <project path="kernel/google/bramble" name="kernel_google_bramble" remote="benzo" />
+  <project path="kernel/google/redbull" name="kernel_google_redbull" remote="benzo" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/build-tools" name="prebuilts_build-tools" remote="benzo" />
