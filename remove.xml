@@ -62,7 +62,6 @@
   <remove-project name="platform/bionic" />
   <remove-project name="platform/external/arm-optimized-routines" />
   <remove-project name="platform/external/cpu_features" />
-  <remove-project name="platform/external/f2fs-tools" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/providers/DownloadProvider" />
@@ -81,7 +80,6 @@
   <remove-project name="platform/prebuilts/go/darwin-x86" />
   <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
   <remove-project name="platform/system/core" />
-  <remove-project name="platform/system/extras" />
   <remove-project name="platform/system/security" />
 
 </manifest>
