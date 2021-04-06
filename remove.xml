@@ -81,5 +81,6 @@
   <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/security" />
+  <remove-project name="platform/system/sepolicy" />
 
 </manifest>

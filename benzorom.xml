@@ -41,6 +41,7 @@
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="benzo" />
   <project path="system/core" name="system_core" remote="benzo" />
   <project path="system/security" name="system_security" remote="benzo" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="benzo" />
 
   <!-- Device and Kernel -->
   <project path="device/google/bramble" name="device_google_bramble" remote="benzo" />
