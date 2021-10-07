@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Remotes -->
+  <remote  name="benzo"
+           fetch="https://github.com/BenzoRom/"
+           revision="android12"/>
+
+  <remote  name="github"
+           fetch="https://github.com/"/>
+
+  <remote  name="bitbucket"
+           fetch="https://bitbucket.org/" />
+
+  <!-- AOSP repos to remove -->
+  <include name="remove.xml" />
+
+</manifest>
