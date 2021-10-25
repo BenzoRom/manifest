@@ -2,11 +2,11 @@
 <manifest>
 
   <!-- System -->
-  <remove-project name="platform/build" />
-  <remove-project name="platform/build/soong" />
-  <remove-project name="platform/frameworks/base" />
-  <remove-project name="platform/system/core" />
-  <remove-project name="platform/system/logging" />
+  <remove-project name="platform/build"/>
+  <remove-project name="platform/build/soong"/>
+  <remove-project name="platform/frameworks/base"/>
+  <remove-project name="platform/system/core"/>
+  <remove-project name="platform/system/logging"/>
 
   <!-- Devices -->
   <remove-project name="device/amlogic/yukawa"/>
@@ -18,13 +18,14 @@
   <remove-project name="device/google/bonito"/>
   <remove-project name="device/google/bonito-kernel"/>
   <remove-project name="device/google/bonito-sepolicy"/>
-  <remove-project name="device/google/bramble" />
-  <remove-project name="device/google/bramble-sepolicy" />
-  <remove-project name="device/google/coral" />
-  <remove-project name="device/google/coral-kernel" />
-  <remove-project name="device/google/coral-sepolicy" />
-  <remove-project name="device/google/redbull" />
-  <remove-project name="device/google/redbull-sepolicy" />
+  <remove-project name="device/google/bramble"/>
+  <remove-project name="device/google/bramble-sepolicy"/>
+  <remove-project name="device/google/coral"/>
+  <remove-project name="device/google/coral-kernel"/>
+  <remove-project name="device/google/coral-sepolicy"/>
+  <remove-project name="device/google/redbull"/>
+  <remove-project name="device/google/redbull-kernel"/>
+  <remove-project name="device/google/redbull-sepolicy"/>
   <remove-project name="device/google/redfin"/>
   <remove-project name="device/google/redfin-sepolicy"/>
   <remove-project name="device/google/sunfish"/>
@@ -44,6 +45,10 @@
   <remove-project name="device/mediatek/wembley-sepolicy"/>
   <remove-project name="device/ti/beagle-x15"/>
   <remove-project name="device/ti/beagle-x15-kernel"/>
+
+  <!-- Prebuilts -->
+  <remove-project name="platform/prebuilts/build-tools"/>
+  <remove-project name="platform/prebuilts/clang/host/linux-x86"/>
 
   <!-- Darwin prebuilts -->
   <remove-project name="platform/prebuilts/bazel/darwin-x86_64"/>
