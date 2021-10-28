@@ -31,12 +31,19 @@
   </project>
 
   <!-- System -->
+  <project path="art" name="art" remote="benzo" />
+  <project path="bionic" name="bionic" remote="benzo" />
+  <project path="external/harfbuzz_ng" name="external_harfbuzz_ng" remote="benzo" />
+  <project path="frameworks/av" name="frameworks_av" remote="benzo" />
   <project path="frameworks/base" name="frameworks_base" remote="benzo" />
+  <project path="frameworks/native" name="frameworks_native" remote="benzo" />
   <project path="packages/apps/BenzoSettings" name="packages_apps_BenzoSettings" remote="benzo" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="benzo" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="benzo" />
   <project path="system/core" name="system_core" remote="benzo" />
+  <project path="system/extras" name="system_extras" remote="benzo" />
   <project path="system/logging" name="system_logging" remote="benzo" />
+  <project path="system/security" name="system_security" remote="benzo" />
 
   <!-- Device and Kernel -->
   <project path="device/google/bramble" name="device_google_bramble" remote="benzo" />
