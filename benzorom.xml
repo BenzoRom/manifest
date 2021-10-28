@@ -45,7 +45,7 @@
 
   <!-- Prebuilts -->
   <project path="prebuilts/build-tools" name="prebuilts_build-tools" remote="benzo" />
-  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" revision="ee49fa39ce9be1c2a9d55bdc3a841e13e21af254" clone-depth="1" />
+  <project path="prebuilts/clang/host/linux-x86" name="prebuilts_clang_host_linux-x86" remote="benzo" />
   <project path="prebuilts/gas/linux-x86" name="platform/prebuilts/gas/linux-x86" revision="master" clone-depth="1" />
 
   <!-- Vendors -->
