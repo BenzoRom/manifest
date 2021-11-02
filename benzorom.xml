@@ -47,6 +47,8 @@
 
   <!-- Device and Kernel -->
   <project path="device/google/bramble" name="device_google_bramble" remote="benzo" />
+  <project path="device/google/gs101" name="device_google_gs101" remote="benzo" />
+  <project path="device/google/raviole" name="device_google_raviole" remote="benzo" />
   <project path="device/google/redbull" name="device_google_redbull" remote="benzo" />
   <project path="kernel/google/redbull" name="kernel_google_redbull" remote="benzo" />
 
