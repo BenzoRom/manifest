@@ -61,6 +61,7 @@
   <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/build-tools"/>
   <remove-project name="platform/prebuilts/clang/host/linux-x86"/>
+  <remove-project name="platform/prebuilts/clang-tools"/>
   <remove-project name="platform/prebuilts/rust"/>
 
   <!-- Darwin prebuilts -->
