@@ -59,6 +59,7 @@
 
   <!-- Vendors -->
   <project path="vendor/benzo" name="vendor_benzo" remote="benzo" />
+  <project path="vendor/google_devices/oriole" name="vendor_google_devices_oriole" sync-s="true" remote="benzo" />
   <project path="vendor/googleapps" name="xanaxdroid/vendor_googleapps" remote="bitbucket" revision="android12" />
 
 </manifest>
