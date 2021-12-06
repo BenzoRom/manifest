@@ -33,7 +33,9 @@
   <!-- System -->
   <project path="art" name="art" remote="benzo" />
   <project path="bionic" name="bionic" remote="benzo" />
+  <project path="external/bash" name="external_bash" remote="benzo" />
   <project path="external/harfbuzz_ng" name="external_harfbuzz_ng" remote="benzo" />
+  <project path="external/libncurses" name="external_libncurses" remote="benzo" />
   <project path="frameworks/av" name="frameworks_av" remote="benzo" />
   <project path="frameworks/base" name="frameworks_base" remote="benzo" />
   <project path="frameworks/native" name="frameworks_native" remote="benzo" />
