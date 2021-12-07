@@ -56,7 +56,7 @@
   <project path="prebuilts/build-tools" name="prebuilts_build-tools" remote="benzo" />
   <project path="prebuilts/clang/host/linux-x86" name="prebuilts_clang_host_linux-x86" remote="benzo" />
   <project path="prebuilts/clang/host/linux-x86/clang-benzo" name="xanaxdroid/benzoClang-14.0" remote="bitbucket" revision="master" />
-  <project path="prebuilts/clang-tools" name="prebuilts_clang-tools" remote="benzo" />
+  <project path="prebuilts/clang-tools" name="xanaxdroid/prebuilts_clang-tools" remote="bitbucket" revision="android12" />
   <project path="prebuilts/gas/linux-x86" name="platform/prebuilts/gas/linux-x86" revision="master" clone-depth="1" />
   <project path="prebuilts/rust" name="platform/prebuilts/rust" revision="c02cf63008969d093744d434576612ba1a9b83d3" clone-depth="1" />
 
