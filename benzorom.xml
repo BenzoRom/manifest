@@ -4,7 +4,7 @@
   <!-- Remotes -->
   <remote  name="benzo"
            fetch="https://github.com/BenzoRom/"
-           revision="android12"/>
+           revision="android12L"/>
 
   <remote  name="github"
            fetch="https://github.com/"/>

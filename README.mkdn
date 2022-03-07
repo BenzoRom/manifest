@@ -11,7 +11,7 @@ familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
 To initialize your local repository use a command like this:
 
-    repo init -u https://github.com/BenzoRom/manifest.git -b android12
+    repo init -u https://github.com/BenzoRom/manifest.git -b android12L
 
 Then to sync up:
 
