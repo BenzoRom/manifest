@@ -15,6 +15,9 @@
   <!-- AOSP repos to remove -->
   <include name="remove.xml" />
 
+  <!-- Benzo Rom Manifest -->
+  <project path="manifest" name="manifest" remote="benzo" />
+
   <!-- Build -->
   <project path="build/make" name="build" remote="benzo" >
     <copyfile src="core/root.mk" dest="Makefile" />
