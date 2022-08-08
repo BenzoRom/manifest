@@ -5,6 +5,7 @@
   <remove-project name="platform/art"/>
   <remove-project name="platform/bionic"/>
   <remove-project name="platform/build"/>
+  <remove-project name="platform/build/blueprint"/>
   <remove-project name="platform/build/soong"/>
   <remove-project name="platform/external/harfbuzz_ng"/>
   <remove-project name="platform/frameworks/av"/>
@@ -65,6 +66,7 @@
   <remove-project name="platform/prebuilts/build-tools"/>
   <remove-project name="platform/prebuilts/clang/host/linux-x86"/>
   <remove-project name="platform/prebuilts/clang-tools"/>
+  <remove-project name="platform/prebuilts/go/linux-x86"/>
   <remove-project name="platform/prebuilts/r8"/>
   <remove-project name="platform/prebuilts/rust"/>
 

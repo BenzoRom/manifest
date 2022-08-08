@@ -28,6 +28,7 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
+  <project path="build/blueprint" name="build_blueprint" remote="benzo" />
   <project path="build/soong" name="build_soong" remote="benzo" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
@@ -63,6 +64,7 @@
   <project path="prebuilts/clang/host/linux-x86/clang-benzo" name="xanaxdroid/benzoClang-16.0" remote="bitbucket" revision="master" />
   <project path="prebuilts/clang-tools" name="xanaxdroid/prebuilts_clang-tools" remote="bitbucket" revision="android12L" />
   <project path="prebuilts/gas/linux-x86" name="platform/prebuilts/gas/linux-x86" revision="master" clone-depth="1" />
+  <project path="prebuilts/go/linux-x86" name="prebuilts_go_linux-x86" remote="benzo" />
   <project path="prebuilts/r8" name="prebuilts_r8" remote="benzo" />
   <project path="prebuilts/rust" name="platform/prebuilts/rust" revision="c02cf63008969d093744d434576612ba1a9b83d3" clone-depth="1" />
 
