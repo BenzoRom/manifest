@@ -13,6 +13,8 @@
   <remove-project name="platform/packages/apps/Settings"/>
   <remove-project name="platform/packages/modules/Connectivity"/>
   <remove-project name="platform/packages/providers/DownloadProvider"/>
+  <remove-project name="platform/system/bt"/>
+  <remove-project name="platform/system/connectivity/wificond"/>
   <remove-project name="platform/system/core"/>
   <remove-project name="platform/system/extras"/>
   <remove-project name="platform/system/logging"/>
