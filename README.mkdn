@@ -1,0 +1,20 @@
+Benzo Rom
+===========
+
+Some info might be outdated, but you can get the gist if it is.
+Current manifest is for building oriole, but you can add your
+device and vendors to benzorom.xml and sync.
+
+Getting Started
+---------------
+
+To get started with Benzo, you'll need to get
+familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
+
+To initialize your local repository use a command like this:
+
+    repo init -u https://github.com/BenzoRom/manifest.git -b android13
+
+Then to sync up:
+
+    repo sync -j$(nproc --all)

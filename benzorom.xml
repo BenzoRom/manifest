@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Remotes -->
+  <remote  name="benzo"
+           fetch="https://github.com/BenzoRom/"
+           revision="android13" />
+
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <remote  name="bitbucket"
+           fetch="https://bitbucket.org/" />
+
+  <!-- AOSP repos to remove -->
+  <include name="remove.xml" />
+
+  <!-- Benzo Rom Manifest -->
+  <project path="manifest" name="manifest" remote="benzo" />
+
+  <!-- Build -->
+  <project path="build/make" name="build" remote="benzo" >
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="build_soong" remote="benzo" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <!-- System -->
+  <project path="frameworks/base" name="frameworks_base" remote="benzo" />
+  <project path="system/core" name="system_core" remote="benzo" />
+  <project path="system/logging" name="system_logging" remote="benzo" />
+
+  <!-- Device and Kernel -->
+  <project path="device/google/gs101" name="device_google_gs101" remote="benzo" />
+
+  <!-- Prebuilts -->
+  <project path="prebuilts/clang/host/linux-x86/clang-benzo" name="xanaxdroid/benzoClang-16.0" remote="bitbucket" revision="master" />
+  <project path="prebuilts/go/linux-x86" name="prebuilts_go_linux-x86" remote="benzo" />
+
+  <!-- Vendors -->
+  <project path="vendor/benzo" name="vendor_benzo" remote="benzo" />
+  <project path="vendor/google_devices/oriole" name="vendor_google_devices_oriole" sync-s="true" remote="benzo" />
+
+</manifest>
