@@ -48,6 +48,11 @@
   <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/go/linux-x86"/>
 
+  <!-- Clang (and repos with fixes) -->
+  <remove-project name="platform/packages/modules/Connectivity"/>
+  <remove-project name="platform/prebuilts/clang-tools"/>
+  <remove-project name="platform/prebuilts/clang/host/linux-x86"/>
+
   <!-- Darwin prebuilts -->
   <remove-project name="platform/prebuilts/bazel/darwin-x86_64"/>
   <remove-project name="platform/prebuilts/clang/host/darwin-x86"/>

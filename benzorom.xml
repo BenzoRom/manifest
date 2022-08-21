@@ -34,6 +34,7 @@
 
   <!-- System -->
   <project path="frameworks/base" name="frameworks_base" remote="benzo" />
+  <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="benzo" />
   <project path="system/core" name="system_core" remote="benzo" />
   <project path="system/logging" name="system_logging" remote="benzo" />
 
@@ -41,6 +42,8 @@
   <project path="device/google/gs101" name="device_google_gs101" remote="benzo" />
 
   <!-- Prebuilts -->
+  <project path="prebuilts/clang-tools" name="prebuilts_clang-tools" remote="bitbucket" revision="android13" />
+  <project path="prebuilts/clang/host/linux-x86" name="prebuilts_clang_host_linux-x86" remote="benzo" />
   <project path="prebuilts/clang/host/linux-x86/clang-benzo" name="xanaxdroid/benzoClang-16.0" remote="bitbucket" revision="master" />
   <project path="prebuilts/go/linux-x86" name="prebuilts_go_linux-x86" remote="benzo" />
 
