@@ -38,6 +38,10 @@
   <project path="system/core" name="system_core" remote="benzo" />
   <project path="system/logging" name="system_logging" remote="benzo" />
 
+  <!-- Externals -->
+  <project path="external/bash" name="external_bash" remote="benzo" />
+  <project path="external/libncurses" name="external_libncurses" remote="benzo" />
+
   <!-- Device and Kernel -->
   <project path="device/google/gs101" name="device_google_gs101" remote="benzo" />
 
