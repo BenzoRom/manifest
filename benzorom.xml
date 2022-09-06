@@ -50,6 +50,7 @@
   <project path="prebuilts/clang/host/linux-x86" name="prebuilts_clang_host_linux-x86" remote="benzo" />
   <project path="prebuilts/clang/host/linux-x86/clang-benzo" name="xanaxdroid/benzoClang-16.0" remote="bitbucket" revision="master" />
   <project path="prebuilts/go/linux-x86" name="prebuilts_go_linux-x86" remote="benzo" />
+  <project path="prebuilts/r8" name="prebuilts_r8" remote="benzo" />
 
   <!-- Vendors -->
   <project path="vendor/benzo" name="vendor_benzo" remote="benzo" />
