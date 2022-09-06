@@ -34,6 +34,8 @@
 
   <!-- System -->
   <project path="frameworks/base" name="frameworks_base" remote="benzo" />
+  <project path="packages/apps/BenzoSettings" name="packages_apps_BenzoSettings" remote="benzo" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="benzo" />
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="benzo" />
   <project path="system/core" name="system_core" remote="benzo" />
   <project path="system/logging" name="system_logging" remote="benzo" />
