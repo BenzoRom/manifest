@@ -48,6 +48,7 @@
 
   <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/go/linux-x86"/>
+  <remove-project name="platform/prebuilts/jdk/jdk17"/>
   <remove-project name="platform/prebuilts/r8"/>
 
   <!-- Clang (and repos with fixes) -->
