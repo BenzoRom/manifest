@@ -8,6 +8,7 @@
   <remove-project name="platform/build/soong"/>
   <remove-project name="platform/external/arm-optimized-routines"/>
   <remove-project name="platform/frameworks/base"/>
+  <remove-project name="platform/frameworks/native"/>
   <remove-project name="platform/packages/apps/Settings"/>
   <remove-project name="platform/packages/providers/DownloadProvider"/>
   <remove-project name="platform/system/core"/>
@@ -56,6 +57,7 @@
 
   <!-- Clang (and repos with fixes) -->
   <remove-project name="platform/packages/modules/Connectivity"/>
+  <remove-project name="platform/platform_testing"/>
   <remove-project name="platform/prebuilts/clang-tools"/>
   <remove-project name="platform/prebuilts/clang/host/linux-x86"/>
 

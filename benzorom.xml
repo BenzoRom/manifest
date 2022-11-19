@@ -36,9 +36,11 @@
   <project path="art" name="art" remote="benzo" />
   <project path="bionic" name="bionic" remote="benzo" />
   <project path="frameworks/base" name="frameworks_base" remote="benzo" />
+  <project path="frameworks/native" name="frameworks_native" remote="benzo" />
   <project path="packages/apps/BenzoSettings" name="packages_apps_BenzoSettings" remote="benzo" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="benzo" />
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="benzo" />
+  <project path="platform_testing" name="platform_testing" remote="benzo" />
   <project path="frameworks/packages/SystemUIGoogle" name="frameworks_packages_SystemUIGoogle" remote="benzo" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="benzo" />
   <project path="system/core" name="system_core" remote="benzo" />
