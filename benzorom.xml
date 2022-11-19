@@ -34,6 +34,7 @@
 
   <!-- System -->
   <project path="art" name="art" remote="benzo" />
+  <project path="bionic" name="bionic" remote="benzo" />
   <project path="frameworks/base" name="frameworks_base" remote="benzo" />
   <project path="packages/apps/BenzoSettings" name="packages_apps_BenzoSettings" remote="benzo" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="benzo" />
@@ -44,6 +45,7 @@
   <project path="system/logging" name="system_logging" remote="benzo" />
 
   <!-- Externals -->
+  <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="benzo" />
   <project path="external/bash" name="external_bash" remote="benzo" />
   <project path="external/libncurses" name="external_libncurses" remote="benzo" />
 

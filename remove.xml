@@ -3,8 +3,10 @@
 
   <!-- System -->
   <remove-project name="platform/art"/>
+  <remove-project name="platform/bionic"/>
   <remove-project name="platform/build"/>
   <remove-project name="platform/build/soong"/>
+  <remove-project name="platform/external/arm-optimized-routines"/>
   <remove-project name="platform/frameworks/base"/>
   <remove-project name="platform/packages/apps/Settings"/>
   <remove-project name="platform/packages/providers/DownloadProvider"/>
