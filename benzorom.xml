@@ -58,6 +58,7 @@
   <project path="prebuilts/clang-tools" name="xanaxdroid/prebuilts_clang-tools" remote="bitbucket" revision="android13" />
   <project path="prebuilts/clang/host/linux-x86" name="prebuilts_clang_host_linux-x86" remote="benzo" />
   <project path="prebuilts/clang/host/linux-x86/clang-benzo" name="xanaxdroid/benzoClang-16.0" remote="bitbucket" revision="master" />
+  <project path="prebuilts/clang/host/linux-x86/clang-bindgen" name="xanaxdroid/clang-bindgen" remote="bitbucket" revision="master" />
   <project path="prebuilts/go/linux-x86" name="prebuilts_go_linux-x86" remote="benzo" />
   <project path="prebuilts/jdk/jdk17" name="platform/prebuilts/jdk/jdk17" clone-depth="1" revision="854142416ae58bda96b0dcabe01ec8a2b863f8ef" />
   <project path="prebuilts/r8" name="prebuilts_r8" remote="benzo" />
