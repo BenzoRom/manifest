@@ -30,6 +30,8 @@
   <remove-project name="device/google/coral-sepolicy"/>
   <remove-project name="device/google/gs101"/>
   <remove-project name="device/google/gs101-sepolicy"/>
+  <remove-project name="device/google/gs201"/>
+  <remove-project name="device/google/gs201-sepolicy"/>
   <remove-project name="device/google/redbull"/>
   <remove-project name="device/google/redbull-kernel"/>
   <remove-project name="device/google/redbull-sepolicy"/>
