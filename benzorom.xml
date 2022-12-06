@@ -37,12 +37,12 @@
   <project path="bionic" name="bionic" remote="benzo" />
   <project path="frameworks/base" name="frameworks_base" remote="benzo" />
   <project path="frameworks/native" name="frameworks_native" remote="benzo" />
+  <project path="frameworks/packages/SystemUIGoogle" name="frameworks_packages_SystemUIGoogle" remote="benzo" />
   <project path="packages/apps/BenzoSettings" name="packages_apps_BenzoSettings" remote="benzo" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="benzo" />
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="benzo" />
-  <project path="platform_testing" name="platform_testing" remote="benzo" />
-  <project path="frameworks/packages/SystemUIGoogle" name="frameworks_packages_SystemUIGoogle" remote="benzo" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="benzo" />
+  <project path="platform_testing" name="platform_testing" remote="benzo" />
   <project path="system/core" name="system_core" remote="benzo" />
   <project path="system/logging" name="system_logging" remote="benzo" />
 
@@ -61,12 +61,11 @@
   <project path="prebuilts/clang/host/linux-x86/clang-benzo" name="xanaxdroid/benzoClang-16.0" remote="bitbucket" revision="master" />
   <project path="prebuilts/clang/host/linux-x86/clang-bindgen" name="xanaxdroid/clang-bindgen" remote="bitbucket" revision="master" />
   <project path="prebuilts/go/linux-x86" name="prebuilts_go_linux-x86" remote="benzo" />
-  <project path="prebuilts/jdk/jdk17" name="platform/prebuilts/jdk/jdk17" clone-depth="1" revision="854142416ae58bda96b0dcabe01ec8a2b863f8ef" />
+  <project path="prebuilts/jdk/jdk17" name="platform/prebuilts/jdk/jdk17" clone-depth="1" revision="master" />
   <project path="prebuilts/r8" name="prebuilts_r8" remote="benzo" />
 
   <!-- Vendors -->
   <project path="vendor/benzo" name="vendor_benzo" remote="benzo" />
-  <project path="vendor/google_devices/oriole" name="vendor_google_devices_oriole" sync-s="true" remote="benzo" />
   <project path="vendor/googleapps" name="xanaxdroid/vendor_googleapps" remote="bitbucket" revision="android13" />
 
 </manifest>
