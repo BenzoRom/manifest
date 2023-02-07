@@ -69,5 +69,6 @@
   <!-- Vendors -->
   <project path="vendor/benzo" name="vendor_benzo" remote="benzo" />
   <project path="vendor/googleapps" name="xanaxdroid/vendor_googleapps" remote="bitbucket" revision="android13" />
+  <project path="vendor/google_devices/cheetah" name="vendor_google_devices_cheetah" sync-s="true" remote="benzo" />
 
 </manifest>
